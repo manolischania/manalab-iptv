@@ -25,16 +25,27 @@ jobs:
 
     - name: Generate M3U Playlist
       run: |
-        # Εδώ βάζουμε το ID της λίστας σου
-        PLAYLIST_ID="PL2rB3_wxnzkSPdWlqnGO3FGmg8HObgy20"
-        
-        # Δημιουργία επικεφαλίδας του αρχείου
+        # Καθαρισμός/Δημιουργία αρχείου
         echo "#EXTM3U" > playlist.m3u
         
-        # Λήψη των τίτλων και IDs και εγγραφή στο αρχείο
-        # Χρησιμοποιούμε plugin:// για να παίζει πάντα σωστά στο Kodi
-        yt-dlp --flat-playlist --print "%(title)s,%(id)s" "https://www.youtube.com/playlist?list=$PLAYLIST_ID" | while IFS=, read -r title id; do
-            echo "#EXTINF:-1 group-title=\"Village Loop\" tvg-logo=\"https://www.villagecinemas.gr/media/gz3kjct4/footer-logo.svg\",$title" >> playlist.m3u
+        # --- ΛΙΣΤΑ 1: VILLAGE CINEMAS ---
+        PLAYLIST_ID_1="PL2rB3_wxnzkSPdWlqnGO3FGmg8HObgy20"
+        yt-dlp --flat-playlist --print "%(title)s,%(id)s" "https://www.youtube.com/playlist?list=$PLAYLIST_ID_1" | while IFS=, read -r title id; do
+            echo "#EXTINF:-1 group-title=\"Village Cinemas Trailers\" tvg-logo=\"https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png\",$title" >> playlist.m3u
+            echo "plugin://plugin.video.youtube/play/?video_id=$id" >> playlist.m3u
+        done
+
+        # --- ΛΙΣΤΑ 2: ODEON ---
+        PLAYLIST_ID_1="PL4Y7FFH8ohQqwRz472oHk7soTuIBGGUm0"
+        yt-dlp --flat-playlist --print "%(title)s,%(id)s" "https://www.youtube.com/playlist?list=$PLAYLIST_ID_2" | while IFS=, read -r title id; do
+            echo "#EXTINF:-1 group-title=\"Odeon Cinema Trailers\" tvg-logo=\"https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png\",$title" >> playlist.m3u
+            echo "plugin://plugin.video.youtube/play/?video_id=$id" >> playlist.m3u
+        done
+        
+        # --- ΛΙΣΤΑ 3: FEELGOOD---
+        PLAYLIST_ID_1="PLEq9lv6PlXlLMyI1cxwkza0r8kcSxVxz_"
+        yt-dlp --flat-playlist --print "%(title)s,%(id)s" "https://www.youtube.com/playlist?list=$PLAYLIST_ID_3" | while IFS=, read -r title id; do
+            echo "#EXTINF:-1 group-title=\"Feelgood Ent. Trailers\" tvg-logo=\"https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png\",$title" >> playlist.m3u
             echo "plugin://plugin.video.youtube/play/?video_id=$id" >> playlist.m3u
         done
 
