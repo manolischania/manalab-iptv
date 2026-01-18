@@ -5,7 +5,7 @@ on:
     - cron: '0 0 * * *' # Τρέχει κάθε μέρα τα μεσάνυχτα
   workflow_dispatch: # Επιτρέπει χειροκίνητη εκτέλεση
 
-# Δίνουμε δικαιώματα εγγραφής
+# ΑΠΑΡΑΙΤΗΤΟ: Δίνουμε δικαιώματα εγγραφής
 permissions:
   contents: write
 
@@ -16,6 +16,8 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
+      with:
+        fetch-depth: 0 # <--- ΣΗΜΑΝΤΙΚΗ ΔΙΟΡΘΩΣΗ ΓΙΑ ΤΟ ERROR 128 (Κατεβάζει όλο το ιστορικό)
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -58,12 +60,12 @@ jobs:
         git config --global user.name "GitHub Action"
         git config --global user.email "action@github.com"
         
-        # ΕΝΤΟΛΗ ΔΙΟΡΘΩΣΗΣ: Συγχρονισμός με τις αλλαγές σου πριν το ανέβασμα
+        # Τραβάμε τυχόν αλλαγές για να μην χτυπήσει error
         git pull --rebase origin main
         
         git add playlist.m3u
         
-        # Έλεγχος αν υπάρχουν αλλαγές
+        # Έλεγχος και upload
         if git diff --staged --quiet; then
           echo "No changes to commit."
         else
