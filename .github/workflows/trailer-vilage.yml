@@ -2,8 +2,12 @@ name: Update YouTube Playlist
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Τρέχει αυτόματα κάθε μέρα τα μεσάνυχτα
-  workflow_dispatch: # Σου επιτρέπει να το τρέξεις χειροκίνητα όποτε θες
+    - cron: '0 0 * * *' # Τρέχει κάθε μέρα τα μεσάνυχτα
+  workflow_dispatch: # Επιτρέπει χειροκίνητη εκτέλεση
+
+# Δίνουμε δικαιώματα εγγραφής στο script
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -36,7 +40,6 @@ jobs:
         done
 
         # --- ΛΙΣΤΑ 2: ODEON ---
-        # ΔΙΟΡΘΩΣΗ: Άλλαξα το όνομα της μεταβλητής σε PLAYLIST_ID_2
         PLAYLIST_ID_2="PL4Y7FFH8ohQqwRz472oHk7soTuIBGGUm0"
         yt-dlp --flat-playlist --print "%(title)s,%(id)s" "https://www.youtube.com/playlist?list=$PLAYLIST_ID_2" | while IFS=, read -r title id; do
             echo "#EXTINF:-1 group-title=\"Odeon Cinema Trailers\" tvg-logo=\"https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png\",$title" >> playlist.m3u
@@ -44,7 +47,6 @@ jobs:
         done
         
         # --- ΛΙΣΤΑ 3: FEELGOOD ---
-        # ΔΙΟΡΘΩΣΗ: Άλλαξα το όνομα της μεταβλητής σε PLAYLIST_ID_3
         PLAYLIST_ID_3="PLEq9lv6PlXlLMyI1cxwkza0r8kcSxVxz_"
         yt-dlp --flat-playlist --print "%(title)s,%(id)s" "https://www.youtube.com/playlist?list=$PLAYLIST_ID_3" | while IFS=, read -r title id; do
             echo "#EXTINF:-1 group-title=\"Feelgood Ent. Trailers\" tvg-logo=\"https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png\",$title" >> playlist.m3u
@@ -56,5 +58,10 @@ jobs:
         git config --global user.name "GitHub Action"
         git config --global user.email "action@github.com"
         git add playlist.m3u
-        # Κάνει commit μόνο αν υπάρχουν αλλαγές
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update playlist" && git push)
+        # Ελέγχει αν υπάρχουν αλλαγές πριν κάνει commit για να μην βγάλει error
+        if git diff --staged --quiet; then
+          echo "No changes to commit."
+        else
+          git commit -m "Update playlist"
+          git push
+        fi
