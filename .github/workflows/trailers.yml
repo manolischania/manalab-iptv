@@ -15,8 +15,6 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
-      with:
-        fetch-depth: 0 # Απαραίτητο για να μην χτυπάει το Git
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -30,31 +28,28 @@ jobs:
 
     - name: Generate M3U Playlist
       run: |
+        # Καθαρισμός και δημιουργία επικεφαλίδας
         echo "#EXTM3U" > playlist.m3u
         
         # --- ΛΙΣΤΑ 1: VILLAGE CINEMAS ---
         PLAYLIST_ID_1="PL2rB3_wxnzkSPdWlqnGO3FGmg8HObgy20"
-        # Χρησιμοποιούμε διαχωριστικό | (pipe) για να μην σπάει αν ο τίτλος έχει κόμμα
+        # Χρησιμοποιούμε το | ως διαχωριστικό για να μην σπάνε οι τίτλοι που έχουν κόμματα
         yt-dlp --flat-playlist --ignore-errors --print "%(title)s|%(id)s" "https://www.youtube.com/playlist?list=$PLAYLIST_ID_1" | while IFS='|' read -r title id; do
-            # Αφαιρούμε τυχόν διπλά εισαγωγικά από τον τίτλο για να μην χαλάσει το plot
-            clean_title=$(echo "$title" | sed 's/"//g')
-            echo "#EXTINF:-1 group-title=\"Village Cinemas Trailers\" tvg-logo=\"https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png\" plot=\"Village Cinemas Official Trailer\",$clean_title" >> playlist.m3u
+            echo "#EXTINF:-1 group-title=\"Village Cinemas Trailers\" tvg-logo=\"https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png\",$title" >> playlist.m3u
             echo "plugin://plugin.video.youtube/play/?video_id=$id" >> playlist.m3u
         done
 
         # --- ΛΙΣΤΑ 2: ODEON ---
         PLAYLIST_ID_2="PL4Y7FFH8ohQqwRz472oHk7soTuIBGGUm0"
         yt-dlp --flat-playlist --ignore-errors --print "%(title)s|%(id)s" "https://www.youtube.com/playlist?list=$PLAYLIST_ID_2" | while IFS='|' read -r title id; do
-            clean_title=$(echo "$title" | sed 's/"//g')
-            echo "#EXTINF:-1 group-title=\"Odeon Cinema Trailers\" tvg-logo=\"https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png\" plot=\"Odeon Cinemas Official Trailer\",$clean_title" >> playlist.m3u
+            echo "#EXTINF:-1 group-title=\"Odeon Cinema Trailers\" tvg-logo=\"https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png\",$title" >> playlist.m3u
             echo "plugin://plugin.video.youtube/play/?video_id=$id" >> playlist.m3u
         done
         
         # --- ΛΙΣΤΑ 3: FEELGOOD ---
         PLAYLIST_ID_3="PLEq9lv6PlXlLMyI1cxwkza0r8kcSxVxz_"
         yt-dlp --flat-playlist --ignore-errors --print "%(title)s|%(id)s" "https://www.youtube.com/playlist?list=$PLAYLIST_ID_3" | while IFS='|' read -r title id; do
-            clean_title=$(echo "$title" | sed 's/"//g')
-            echo "#EXTINF:-1 group-title=\"Feelgood Ent. Trailers\" tvg-logo=\"https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png\" plot=\"Feelgood Entertainment Official Trailer\",$clean_title" >> playlist.m3u
+            echo "#EXTINF:-1 group-title=\"Feelgood Ent. Trailers\" tvg-logo=\"https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png\",$title" >> playlist.m3u
             echo "plugin://plugin.video.youtube/play/?video_id=$id" >> playlist.m3u
         done
 
@@ -63,10 +58,8 @@ jobs:
         git config --global user.name "GitHub Action"
         git config --global user.email "action@github.com"
         
-        # Εντολές για να λυθεί το πρόβλημα συγχρονισμού (Error 128/Rejected)
-        git pull --rebase origin main || echo "Rebase failed, trying to continue anyway"
+        # Συγχρονισμός για αποφυγή error
+        git pull --rebase origin main || echo "Rebase not needed"
         
         git add playlist.m3u
-        
-        # Commit μόνο αν υπάρχουν αλλαγές
         git diff --quiet && git diff --staged --quiet || (git commit -m "Update playlist" && git push)
