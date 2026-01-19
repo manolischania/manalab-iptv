@@ -103,20 +103,6 @@ plugin://plugin.video.trailers/?action=play&video_id=YqsLbjoJmpA
 plugin://plugin.video.trailers/?action=play&video_id=74fo5u9_6iw
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΚΔΙΚΗΤΕΣ: Η ΑΝΟΔΟΣ ΤΟΥ DOCTOR DOOM (Avengers: Doomsday) CAPTAIN AMERICA (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=LQKenBkEVVA
-#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Denial / Άρνηση
-plugin://plugin.video.trailers/?action=play&video_id=U4tm1IGdjeg
-#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",The Bye Bye Man
-plugin://plugin.video.trailers/?action=play&video_id=gSpV10On8Ig
-#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Assassin’s Creed – Launch Trailer
-plugin://plugin.video.trailers/?action=play&video_id=fcA9RoGBT80
-#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",La La Land
-plugin://plugin.video.trailers/?action=play&video_id=UcuKVgTsSqM
-#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Ballerina / Η Μπαλαρίνα και ο Μικρός Εφευρέτης
-plugin://plugin.video.trailers/?action=play&video_id=xlR3_810ZP8
-#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Τέλειοι Ξένοι
-plugin://plugin.video.trailers/?action=play&video_id=_K8N5PWiUvg
-#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Get Squirrely / Το Κυνήγι των Χαμένων Βελανιδιών
-plugin://plugin.video.trailers/?action=play&video_id=-x2BgDu2X90
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",ΤΟ ΣΦΥΡΙΓΜΑ ΤΟΥ ΘΑΝΑΤΟΥ (Whistle) – Official Teaser
 plugin://plugin.video.trailers/?action=play&video_id=d3E5ZBT0IGc
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",ΕΚΔΙΚΗΤΕΣ: Η ΑΝΟΔΟΣ ΤΟΥ DOCTOR DOOM (Avengers: Doomsday) – Teaser Trailer C
@@ -355,3 +341,291 @@ plugin://plugin.video.trailers/?action=play&video_id=A5UnObfgdVI
 plugin://plugin.video.trailers/?action=play&video_id=NPm1em9uhr0
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",GHOSTBUSTERS: Η ΑΥΤΟΚΡΑΤΟΡΙΑ ΤΟΥ ΠΑΓΟΥ (Ghostbusters: Frozen Empire) – Official Trailer
 plugin://plugin.video.trailers/?action=play&video_id=sUw01b0C_XA
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",ΟΙ ΔΙΚΟΙ ΜΟΥ ΑΝΘΡΩΠΟΙ (MY PEOPLE) - Trailer | 22 Iανουαρίου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=EfrtVopoiq4
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",GREENLAND 2 - Trailer 2 | January 8th in cinemas from TFG
+plugin://plugin.video.trailers/?action=play&video_id=t9rnugmzJOU
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Ο ΧΟΠΕΡ ΚΑΙ ΤΟ ΜΥΣΤΙΚΟ ΤΗΣ ΜΑΡΜΟΤΑΣ | 22 Ιανουαρίου στους κινηματογράφους από την The Film Group
+plugin://plugin.video.trailers/?action=play&video_id=lAjn8E29wKk
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Ο ΧΟΠΕΡ ΚΑΙ ΤΟ ΜΥΣΤΙΚΟ ΤΗΣ ΜΑΡΜΟΤΑΣ | 22 Ιανουαρίου στους κινηματογράφους από την The Film Group
+plugin://plugin.video.trailers/?action=play&video_id=250GIBua9bg
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",O ΒΑΣΙΛΙΑΣ ΤΩΝ ΒΑΣΙΛΙΑΔΩΝ: ΜΙΑ ΙΣΤΟΡΙΑ ΑΠΟ ΤΟΝ ΚΑΡΟΛΟ ΝΤΙΚΕΝΣ  - Trailer | 11/12 στους κιν/φους
+plugin://plugin.video.trailers/?action=play&video_id=3Xx4Xg7pEqI
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",ΠΕΘΑΝΕ ΑΓΑΠΗ ΜΟΥ (DIE MY LOVE) Teaser Trailer | 27 Νοεμβρίου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=dBXHso4H-00
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",ΠΕΘΑΝΕ ΑΓΑΠΗ ΜΟΥ (DIE MY LOVE) Trailer | 27 Νοεμβρίου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=ZH4SfAYeA84
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",ΟΙ ΔΙΚΟΙ ΜΟΥ ΑΝΘΡΩΠΟΙ (My People) - Trailer
+plugin://plugin.video.trailers/?action=play&video_id=rbrAnxN1fzc
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Η ΚΑΤΑΡΑ ΤΟΥ ΣΕΛΜΠΙ ΟΟΥΚΣ - Final Trailer | 23 Οκτωβρίου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=kN7w-yujDrg
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",GREENLAND 2 - Trailer | 8 Iανουαρίου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=5sRqKYRRECI
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",CHRISTY - Trailer | 6 Νοεμβρίου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=NKDU6A8wdNQ
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",ΠΕΘΑΝΕ ΑΓΑΠΗ ΜΟΥ (DIE MY LOVE) - Teaser Trailer | 13 Νοεμβρίου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=CmGOZXacoEI
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",CHRISTY - Trailer | Tον Νοέμβριο στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=zqmoQ3zoGHU
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",ΠΕΘΑΝΕ ΑΓΑΠΗ ΜΟΥ (DIE MY LOVE) - Teaser Trailer | Tον Νοέμβριο στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=eFi_PVdA4is
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Η ΚΑΤΑΡΑ ΤΟΥ ΣΕΛΜΠΙ ΟΟΥΚΣ (SHELBY OAKS) - Trailer | 23 Οκτωβρίου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=WvryuF3UEXU
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Ο ΜΕΣΟΛΑΒΗΤΗΣ (Relay) Trailer | 18 Σεπτεμβρίου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=7KwBIjH4aG8
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",ΤΕΡΑΤΟΜΟΥΝΤΖΟΥΡΕΣ (SKETCH) Trailer | 11 Σεπτεμβρίου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=AY7UlKE2yOo
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",THE TOXIC AVENGER  - Trailer (UNRATED UNCENSORED) | 28 Αυγούστου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=Cl3vGRSpacY
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",THE TOXIC AVENGER  - Trailer (UNRATED CENSORED) | 28 Αυγούστου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=u2RvpTgTwYw
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",RED SONJA  - Trailer | 7 Αυγούστου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=__5EBxNUO7Y
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",THE TOXIC AVENGER  - Trailer | 28 Αυγούστου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=Wvvvekx8RBs
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",MAZI (Together)  - Trailer | 30 Ιουλίου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=-LjVw9NJ-tk
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Η ΜΟΥΣΙΚΗ ΤΗΣ ΖΟΥΓΚΛΑΣ 2 - Trailer | 24 Ιουλίου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=fzZW2XQ97nk
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Η ΜΟΥΣΙΚΗ ΤΗΣ ΖΟΥΓΚΛΑΣ 2  (Tρέιλερ στα αγγλικά) | 24 Ιουλίου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=p0sK-TXsGXI
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",THE HOME - Trailer | 14 Αυγούστου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=5T4VTn7H6EE
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",ΤΟ ΜΟΝΟΠΑΤΙ ΤΟΥ ΑΛΑΤΙΟΥ (The Salt Path) - Trailer | 3 Ιουλίου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=If7WR5dG8pU
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",MAZI (Together)  - Trailer | 30 Ιουλίου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=p4cKVkCs69Y
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Μαθήματα από έναν Πιγκουίνο (The Penguin Lessons) - Trailer | 5 Ιουνίου στους κινηματογράφους
+plugin://plugin.video.trailers/?action=play&video_id=PjkUgjWg07U
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Η Ιεροτελεστία (The Ritual) - Trailer | 12 Ιουνίου στους κινηματογράφους
+plugin://plugin.video.trailers/?action=play&video_id=HfCYWOILo-Q
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",The Ugly Stepsister | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=EPOBO_AJ4LI
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",The Ugly Stepsister - Trailer | 8 Μαίου στους κινηματογράφους
+plugin://plugin.video.trailers/?action=play&video_id=ca7Z_eGq5Uo
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",EΝΑ ΜΙΚΡΟ ΚΟΛΠΟ ΚΑΙ ΚΑΤΙ ΑΚΟΜΑ (UN P’TIT TRUC EN PLUS) - Trailer | 12 Ιουνίου στους κινηματογράφους
+plugin://plugin.video.trailers/?action=play&video_id=mDNRkKnMfUQ
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Επικίνδυνα Πλάσματα (Dangerous Animals) - Trailer | 10 Ιουλίου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=vkV42-Oj5ts
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",ΈΝΑ ΜΙΚΡΟ ΚΟΛΠΟ ΚΑΙ ΚΑΤΙ ΑΚΟΜΑ (UN P’TIT TRUC EN PLUS) - Trailer
+plugin://plugin.video.trailers/?action=play&video_id=mluKS4M4ovo
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",The Ugly Stepsister - Spot 4 | 8 Μαϊου στους κινηματογράφους
+plugin://plugin.video.trailers/?action=play&video_id=vw-4eo-H_iE
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",The Ugly Stepsister - Spot 3 | 8 Μαίου στους κινηματογράφους
+plugin://plugin.video.trailers/?action=play&video_id=-XnFN7urqRc
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",The Ugly Stepsister - Spot 2 | 8 Μαίου στους κινηματογράφους
+plugin://plugin.video.trailers/?action=play&video_id=3nwAAIiR06s
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",June & John | Trailer - 29 Μαϊου στους κινηματογράφους
+plugin://plugin.video.trailers/?action=play&video_id=w-_K0ak1P6E
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",June & John  | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=MvuqN70ASwk
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Guns Up | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=Fl4LTrzqW3A
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Η Ιεροτελεστία - The Ritual | Teaser Trailer
+plugin://plugin.video.trailers/?action=play&video_id=XMFijIt2e0w
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Όνειρα Ιλουστρασιόν - Magazine Dreams | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=KcdAAN7u1H8
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Επικίνδυνα Πλάσματα - Dangerous Animals | Teaser Trailer
+plugin://plugin.video.trailers/?action=play&video_id=qVTLfDDk2PA
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Μαζί - Together | Teaser Trailer
+plugin://plugin.video.trailers/?action=play&video_id=jLlOqWwF5xM
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",'Ενας Απλός Άνθρωπος (A Working Man) | Family Spot 30''
+plugin://plugin.video.trailers/?action=play&video_id=9Q2Y9-61E3I
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",'Ενας Απλός Άνθρωπος (A Working Man) | Let's Play Spot 15''
+plugin://plugin.video.trailers/?action=play&video_id=xv3BUu8mkEo
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Ένας Απλός Άνθρωπος - A Working Man | Red Band Trailer
+plugin://plugin.video.trailers/?action=play&video_id=uIZuHZzp4xs
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Γουλιέλμος Τέλλος - William Tell | Cutdown Trailer
+plugin://plugin.video.trailers/?action=play&video_id=F1nIJ_nBn4Q
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Γουλιέλμος Τέλλος - William Tell | Trailer - 27 Φεβρουαρίου στους κινηματογράφους
+plugin://plugin.video.trailers/?action=play&video_id=GkuNMXbhxpA
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Η Κληρονόμος των Μυστικών - Inheritance | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=nJbYi4-U6gI
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Ένας Απλός Άνθρωπος (A Working Man) | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=7nWiRoZn2CQ
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Better Man - Every Man 15'' | TV Spot
+plugin://plugin.video.trailers/?action=play&video_id=JfNz7iFBMfM
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Better Man - Every Man 30'' | TV Spot
+plugin://plugin.video.trailers/?action=play&video_id=GYa5oidaYVg
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Better Man - Triumph 15'' | TV Spot
+plugin://plugin.video.trailers/?action=play&video_id=h0ezfu5seo0
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Better Man - Triumph 15'' | TV Spot
+plugin://plugin.video.trailers/?action=play&video_id=vASyKp7ASf0
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Better Man - Triumph 30'' | TV Spot
+plugin://plugin.video.trailers/?action=play&video_id=LqihUF1-lSQ
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Μία Νύχτα με τα Ζωόμπι - Night of the Zoopocalypse | Trailer (Μεταγλωττισμένο)
+plugin://plugin.video.trailers/?action=play&video_id=K-D7IBiwtus
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Η Κληρονόμος των Μυστικών - Inheritance | Trailer (not for use)
+plugin://plugin.video.trailers/?action=play&video_id=j2NDVDfAFVI
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Γουλιέλμος Τέλλος - William Tell | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=U0ZBV-5_XQs
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Better Man - Teaser Trailer | 2 Ιανουαρίου στους κινηματογράφους
+plugin://plugin.video.trailers/?action=play&video_id=qcd8cIPy5ok
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Επιχείρηση: Dirty Angels - Dirty Angels | Trailer - 12 Δεκεμβρίου στους κινηματογράφους
+plugin://plugin.video.trailers/?action=play&video_id=bPbaPDzcw_c
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Better Man - Main Trailer
+plugin://plugin.video.trailers/?action=play&video_id=BTp_OgM4XbQ
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Dirty Angels - Trailer | Σύντομα στους κινηματογράφους
+plugin://plugin.video.trailers/?action=play&video_id=oqoOnXu26ow
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Better Man - Teaser Trailer Cutdown 30'' | Σύντομα στους κινηματογράφους
+plugin://plugin.video.trailers/?action=play&video_id=VMBv8HelmHw
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Terrifier 3 - Trailer | 7 Νοεμβρίου στους κινηματογράφους
+plugin://plugin.video.trailers/?action=play&video_id=ZRv-OJ1Kp5w
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Η Κουζίνα (La Cocina) - Trailer
+plugin://plugin.video.trailers/?action=play&video_id=OjWYJvW9qbQ
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Παρθενόπη (Parthenope) - Trailer
+plugin://plugin.video.trailers/?action=play&video_id=H0dGia86T10
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",The Apprentice | TV Spot 30''
+plugin://plugin.video.trailers/?action=play&video_id=R98CoHLb1jQ
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Hellboy: Ο Υπηρέτης του Διαβόλου | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=LtUkBiFpMR4
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Better Man  | Teaser - Σύντομα στους κινηματογράφους
+plugin://plugin.video.trailers/?action=play&video_id=0utzwEg6Ops
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Η Παράσταση του Σινγκ Σινγκ (Sing Sing) | Spot Wonderful
+plugin://plugin.video.trailers/?action=play&video_id=2Yv8_xjumlQ
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Η Παράσταση του Σινγκ Σινγκ (Sing Sing) | Spot Reality
+plugin://plugin.video.trailers/?action=play&video_id=eiBMu0DdmGg
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Επικίνδυνα Μυαλά - Bad Genius | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=x7MNQJ066mk
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",The Apprentice | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=mkCsiigF-J8
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",LEE | Spot 30''
+plugin://plugin.video.trailers/?action=play&video_id=Tm90sdGM6OY
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Η Παράσταση του Σινγκ Σινγκ - Sing Sing | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=F_db12npTj0
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Άπληστοι Άνθρωποι - Greedy People | Spot 30''
+plugin://plugin.video.trailers/?action=play&video_id=VIfZ_vsfgWA
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Άπληστοι Άνθρωποι - Greedy People | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=bQyiVAVzpKw
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Lee | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=QcJFCOyGyiw
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Μικροί Ήρωες σε Δράση - Buffalo Kids | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=W2QEBtuDOV8
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Doraemon the Movie: Nobita's Earth Symphony | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=uOA5MwV-CTU
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Strange Darling | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=hlvOG4W1svg
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Η Φύλακας των Δράκων - Dragonkeeper | Trailer (Μεταγλωττισμένο)
+plugin://plugin.video.trailers/?action=play&video_id=AB9ABkMz5Kc
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Detective Conan: Το Άστρο του Ενός Εκατομμυρίου | Trailer #2
+plugin://plugin.video.trailers/?action=play&video_id=K9Az6PzGUdo
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Ο Πάντα-Πάνγκ στην Αφρική | Trailer (Μεταγλωττισμένο)
+plugin://plugin.video.trailers/?action=play&video_id=TA1bjslEsMk
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Longlegs | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=DWJm2JZsyOw
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Detective Conan: Το Άστρο του Ενός Εκατομμυρίου | Trailer #1
+plugin://plugin.video.trailers/?action=play&video_id=ktNAkgnu834
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Longlegs - Dirty | Teaser Trailer
+plugin://plugin.video.trailers/?action=play&video_id=9VjmcKT-xgY
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Longlegs - Sweet | Teaser Trailer
+plugin://plugin.video.trailers/?action=play&video_id=sviMSkad78M
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Ο Εξορκισμός - The Exorcism | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=t_KqyhYj4Lw
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Detective Conan: Το Μαύρο Υποβρύχιο | Trailer - 9 Μαϊου στους κινηματογράφους
+plugin://plugin.video.trailers/?action=play&video_id=VCTiih3pkQ0
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Στον Ιστό του Τρόμου - Infested | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=21HT-qBaAgM
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",LONGLEGS | Teaser Trailer
+plugin://plugin.video.trailers/?action=play&video_id=9Jizdt8J32A
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",LONGLEGS | Redband Teaser Trailer
+plugin://plugin.video.trailers/?action=play&video_id=Fga5mbIKbr8
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Demon Slayer: Kimetsu No Yaiba – To The Hashira Training | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=a-yXRyhuIQM
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Αγώνας για τη Δόξα - Race For Glory | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=UaEuX5mE41E
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Boy Kills World | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=vjiY2AU6G7I
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Σκύλος & Γάτα: Μια Τρελή Καταδίωξη | Spot 15''
+plugin://plugin.video.trailers/?action=play&video_id=TIt9rvbSTvA
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Σκύλος & Γάτα: Μια Τρελή Καταδίωξη | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=ZByDdMx9awQ
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Άσπιλη - Immaculate | Trailer (Red Band)
+plugin://plugin.video.trailers/?action=play&video_id=BoTV5GGqdAM
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Άσπιλη - Immaculate | Trailer (Green Band)
+plugin://plugin.video.trailers/?action=play&video_id=lS7hJfqp73U
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Σιωπηλή Οργή - Silent Night | Spot 30''
+plugin://plugin.video.trailers/?action=play&video_id=AbmYvVBv34Y
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Ένα Τέλος και Μια Αρχή - The End We Start From | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=iMPiQu7vrG4
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Περάσματα - Passages | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=bjZGtbZfMGc
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Ο Καπετάν Μιχάλης | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=xonR_4ioDLk
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Ο Μαέστρος - Maestro| Trailer
+plugin://plugin.video.trailers/?action=play&video_id=K-R3AxOq6CQ
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Ferrari | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=wbqHqQDTfA0
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Ο Μελισσοκόμος - The Beekeeper | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=pGW3Wi2Isko
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Ο Μαέστρος - Maestro | Teaser Trailer
+plugin://plugin.video.trailers/?action=play&video_id=mQ9ybbRAWg0
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Παιχνίδια Θανάτου - All Fun And Games | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=WV7VMNcScRA
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",ΠΑΙΧΝΙΔΙΑ ΘANATOY - All Fun And Games | 30'' Spot
+plugin://plugin.video.trailers/?action=play&video_id=VaFZCM7EN7Q
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Ο Καπετάν Μιχάλης | Teaser Trailer
+plugin://plugin.video.trailers/?action=play&video_id=KLuo_N4yeho
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",The Κiller | Spot 30''
+plugin://plugin.video.trailers/?action=play&video_id=aJBIAQ23uRI
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Σιωπηλή Οργή - Silent Night | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=sSnpRvrPaRI
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",The Κiller | Spot
+plugin://plugin.video.trailers/?action=play&video_id=r4tIKHlmnFo
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",The Royal Hotel | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=KcrhxyZVorQ
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",May December | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=tEzZqy_OZSY
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Shayda | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=QKj-HvKqLA0
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Anselm | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=ADVM2xk3RpQ
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",The Killer | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=JlLagZQ4vhE
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Ferrari | Teaser Trailer
+plugin://plugin.video.trailers/?action=play&video_id=SbE1B3KXOK4
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Οι Αναλώσιμοι 4 - Expendables 4 | New Blood Spot
+plugin://plugin.video.trailers/?action=play&video_id=fepIGdvkDjo
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",You' re Welcome | Οι Αναλώσιμοι 4 - Expendables 4 Spot
+plugin://plugin.video.trailers/?action=play&video_id=xWFm3mW3ARY
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Η Κόρη του Βασιλιά του Βάλτου - The Marsh King's Daughter | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=KrkvyhOCfwk
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Oldboy (4K Επανέκδοση) | 20th Anniversary Trailer
+plugin://plugin.video.trailers/?action=play&video_id=EY9kGHhfMpU
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Οι Αχώριστοι - The Inseperables | Spot
+plugin://plugin.video.trailers/?action=play&video_id=v41VearMad4
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Οι Αναλώσιμοι 4 - Expend4bles | Red Band Trailer
+plugin://plugin.video.trailers/?action=play&video_id=pqjFLBVwoik
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Οι Αχώριστοι - The Inseparables // Trailer
+plugin://plugin.video.trailers/?action=play&video_id=h7Bde7ZuqRg
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Ο Θεός Είναι Μια Σφαίρα - God is a Bullet // Trailer
+plugin://plugin.video.trailers/?action=play&video_id=9pz4cGhWrCI
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Αουτσάιντερς - Dumb Money // Red Band Trailer
+plugin://plugin.video.trailers/?action=play&video_id=wGkYwsUMBw4
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Resident Evil: Death Island // Trailer
+plugin://plugin.video.trailers/?action=play&video_id=A0xJSNgUY7A
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Οι Αναλώσιμοι 4 | Τhe Expend4bles // Trailer
+plugin://plugin.video.trailers/?action=play&video_id=WkrzQSE_30M
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Master Gardener // Trailer
+plugin://plugin.video.trailers/?action=play&video_id=Auhn_u3kQhA
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Kandahar: Σημείο Διαφυγής // Kandahar | Spot
+plugin://plugin.video.trailers/?action=play&video_id=om-4p7Zoq2s
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Επίδοξοι Κληρονόμοι // The Estate | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=4xh0LlBDbAM
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Kandahar: Σημείο Διαφυγής // Kandahar | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=dupWqPbIfkU
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Ξεκουράσου // Bed Rest  - Trailer
+plugin://plugin.video.trailers/?action=play&video_id=osri0rMuQvI
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Μια Απροσδόκητη Σχέση // A Good Person - Trailer
+plugin://plugin.video.trailers/?action=play&video_id=YR5lPUquhyA
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Άρρηκτος Δεσμός // Guy Ritchie's The Covenant  - Trailer
+plugin://plugin.video.trailers/?action=play&video_id=yyPM5FgvjMA
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Στο Τέλος Ξυρίζουν Τον Γαμπρό // Trailer
+plugin://plugin.video.trailers/?action=play&video_id=a4v7LNlp9zM
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Η Εξαφάνιση του Προέδρου (The Vanished President) // Trailer
+plugin://plugin.video.trailers/?action=play&video_id=wBKTwh3t7Fg
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Σκάρλετ // L' Envol - Trailer
+plugin://plugin.video.trailers/?action=play&video_id=YOlWrBN4bGM
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Demon Slayer: Kimetsu No Yaiba - To The Swordsmith Village // Trailer
+plugin://plugin.video.trailers/?action=play&video_id=D8zMeCdOEaE
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Demeter: Η Αφύπνιση του Κακού // The Last Voyage of the Demeter | Trailer
+plugin://plugin.video.trailers/?action=play&video_id=d2WmxzoCKUw
