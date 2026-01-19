@@ -41,14 +41,14 @@ jobs:
                 "logo": "https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png"
             },
             {
-                "id": "PL4Y7FFH8ohQqwRz472oHk7soTuIBGGUm0", 
-                "group": "Odeon Cinema Trailers", 
-                "logo": "https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png"
-            },
-            {
                 "id": "PLEq9lv6PlXlLMyI1cxwkza0r8kcSxVxz_", 
                 "group": "Feelgood Ent. Trailers", 
                 "logo": "https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png"
+            },
+            {
+                "id": "PL7ka5nNx0eiI0axRBawYQiM69e6UChhLi", 
+                "group": "Odeon Cinema Trailers", 
+                "logo": "https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png"
             }
         ]
 
