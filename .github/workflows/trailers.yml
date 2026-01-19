@@ -28,13 +28,12 @@ jobs:
         python -m pip install --upgrade pip
         pip install yt-dlp
 
-    - name: Generate M3U Playlist (Python Strict Filter)
+    - name: Generate M3U Playlist (Smart Links)
       shell: python
       run: |
         import yt_dlp
         import sys
 
-        # --- ΛΙΣΤΕΣ ---
         playlists = [
             {
                 "id": "PL2rB3_wxnzkSPdWlqnGO3FGmg8HObgy20", 
@@ -53,24 +52,9 @@ jobs:
             }
         ]
 
-        # Μνήμη για διπλά IDs
         seen_ids = set()
-        
-        # Λίστα με φράσεις που θέλουμε να ΚΟΨΟΥΜΕ (όλα μικρά γράμματα για σιγουριά)
-        banned_phrases = [
-            "[private video]", 
-            "[deleted video]", 
-            "private video", 
-            "deleted video", 
-            "video unavailable", 
-            "this video is unavailable"
-        ]
-
-        ydl_opts = {
-            'quiet': True,
-            'extract_flat': True,
-            'ignoreerrors': True,
-        }
+        banned_phrases = ["[private video]", "[deleted video]", "private video", "deleted video", "video unavailable"]
+        ydl_opts = {'quiet': True, 'extract_flat': True, 'ignoreerrors': True}
 
         with open("playlist.m3u", "w", encoding="utf-8") as f:
             f.write("#EXTM3U\n")
@@ -84,32 +68,26 @@ jobs:
                         if 'entries' in result:
                             for video in result['entries']:
                                 if not video: continue
-                                
                                 vid = video.get('id')
                                 title = video.get('title', 'No Title')
                                 
-                                # --- ΦΙΛΤΡΑ ---
                                 if not vid: continue
-                                if vid in seen_ids: continue # Έλεγχος Διπλών
+                                if vid in seen_ids: continue
                                 
-                                # --- ΑΥΣΤΗΡΟΣ ΕΛΕΓΧΟΣ PRIVATE/DELETED ---
-                                # Μετατροπή σε μικρά γράμματα για έλεγχο
                                 title_lower = title.lower().strip()
-                                
-                                # Αν περιέχει οποιαδήποτε απαγορευμένη φράση, φεύγει
                                 is_banned = False
                                 for phrase in banned_phrases:
                                     if phrase in title_lower:
                                         is_banned = True
                                         break
-                                
-                                if is_banned:
-                                    continue # Πήγαινε στο επόμενο βίντεο
+                                if is_banned: continue
 
-                                # --- ΕΓΓΡΑΦΗ ---
                                 seen_ids.add(vid)
+                                
                                 f.write(f'#EXTINF:-1 group-title="{pl["group"]}" tvg-logo="{pl["logo"]}",{title}\n')
-                                f.write(f'plugin://plugin.video.youtube/play/?video_id={vid}\n')
+                                # ΕΔΩ ΕΙΝΑΙ Η ΜΑΓΕΙΑ:
+                                # Δίνουμε στο πρόσθετο το video_id για να το βρει σίγουρα
+                                f.write(f'plugin://plugin.video.trailers/?action=play&video_id={vid}\n')
                                 
                     except Exception as e:
                         print(f"Error processing list {pl['group']}: {e}")
