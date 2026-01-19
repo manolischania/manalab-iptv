@@ -14,9 +14,9 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v4 # Αναβάθμιση σε v4
+      uses: actions/checkout@v4
       with:
-        fetch-depth: 0 # <--- ΑΥΤΟ ΛΥΝΕΙ ΤΟ ΠΡΟΒΛΗΜΑ ΤΟΥ ERROR 128/HISTORY
+        fetch-depth: 0
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -28,39 +28,86 @@ jobs:
         python -m pip install --upgrade pip
         pip install yt-dlp
 
-    - name: Generate M3U Playlist
+    - name: Generate M3U Playlist (Python Version)
+      shell: python
       run: |
-        echo "#EXTM3U" > playlist.m3u
-        
-        # --- ΛΙΣΤΑ 1: VILLAGE CINEMAS ---
-        PLAYLIST_ID_1="PL2rB3_wxnzkSPdWlqnGO3FGmg8HObgy20"
-        yt-dlp --flat-playlist --ignore-errors --print "%(title)s|%(id)s" "https://www.youtube.com/playlist?list=$PLAYLIST_ID_1" | while IFS='|' read -r title id; do
-            echo "#EXTINF:-1 group-title=\"Village Cinemas Trailers\" tvg-logo=\"https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png\",$title" >> playlist.m3u
-            echo "plugin://plugin.video.youtube/play/?video_id=$id" >> playlist.m3u
-        done
+        import yt_dlp
+        import sys
 
-        # --- ΛΙΣΤΑ 2: ODEON ---
-        PLAYLIST_ID_2="PL4Y7FFH8ohQqwRz472oHk7soTuIBGGUm0"
-        yt-dlp --flat-playlist --ignore-errors --print "%(title)s|%(id)s" "https://www.youtube.com/playlist?list=$PLAYLIST_ID_2" | while IFS='|' read -r title id; do
-            echo "#EXTINF:-1 group-title=\"Odeon Cinema Trailers\" tvg-logo=\"https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png\",$title" >> playlist.m3u
-            echo "plugin://plugin.video.youtube/play/?video_id=$id" >> playlist.m3u
-        done
+        # --- ΡΥΘΜΙΣΕΙΣ ΛΙΣΤΩΝ ---
+        # Εδώ ορίζουμε τις λίστες, τα ονόματα και τα λογότυπα
+        playlists = [
+            {
+                "id": "PL2rB3_wxnzkSPdWlqnGO3FGmg8HObgy20", 
+                "group": "Village Cinemas Trailers", 
+                "logo": "https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png"
+            },
+            {
+                "id": "PL4Y7FFH8ohQqwRz472oHk7soTuIBGGUm0", 
+                "group": "Odeon Cinema Trailers", 
+                "logo": "https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png"
+            },
+            {
+                "id": "PLEq9lv6PlXlLMyI1cxwkza0r8kcSxVxz_", 
+                "group": "Feelgood Ent. Trailers", 
+                "logo": "https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png"
+            }
+        ]
+
+        # Σύνολο για να κρατάμε τα IDs που έχουμε ήδη βάλει (Μνήμη)
+        seen_ids = set()
         
-        # --- ΛΙΣΤΑ 3: FEELGOOD ---
-        PLAYLIST_ID_3="PLEq9lv6PlXlLMyI1cxwkza0r8kcSxVxz_"
-        yt-dlp --flat-playlist --ignore-errors --print "%(title)s|%(id)s" "https://www.youtube.com/playlist?list=$PLAYLIST_ID_3" | while IFS='|' read -r title id; do
-            echo "#EXTINF:-1 group-title=\"Feelgood Ent. Trailers\" tvg-logo=\"https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png\",$title" >> playlist.m3u
-            echo "plugin://plugin.video.youtube/play/?video_id=$id" >> playlist.m3u
-        done
+        # Ρυθμίσεις για το εργαλείο λήψης (Γρήγορη λειτουργία)
+        ydl_opts = {
+            'quiet': True,
+            'extract_flat': True, # Δεν κατεβάζει βίντεο, μόνο λίστα
+            'ignoreerrors': True,
+        }
+
+        # Άνοιγμα αρχείου για εγγραφή
+        with open("playlist.m3u", "w", encoding="utf-8") as f:
+            f.write("#EXTM3U\n")
+            
+            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                for pl in playlists:
+                    print(f"Processing: {pl['group']}...")
+                    url = f"https://www.youtube.com/playlist?list={pl['id']}"
+                    try:
+                        result = ydl.extract_info(url, download=False)
+                        if 'entries' in result:
+                            for video in result['entries']:
+                                # Έλεγχος αν το βίντεο υπάρχει (καμιά φορά είναι None)
+                                if not video: continue
+                                
+                                vid = video.get('id')
+                                title = video.get('title', 'No Title')
+                                
+                                # --- ΦΙΛΤΡΑ ---
+                                # 1. Αν δεν έχει ID, το αγνοούμε
+                                if not vid: continue
+                                
+                                # 2. ΑΠΟΛΥΤΟ ΦΙΛΤΡΟ ΔΙΠΛΩΝ: Αν το ID υπάρχει ήδη στη μνήμη, τέλος.
+                                if vid in seen_ids: continue
+                                
+                                # 3. Φίλτρο Private/Deleted
+                                if "[Private video]" in title or "[Deleted video]" in title: continue
+                                
+                                # --- ΕΓΓΡΑΦΗ ---
+                                # Προσθήκη στη μνήμη
+                                seen_ids.add(vid)
+                                
+                                # Γράψιμο στο αρχείο
+                                # Η Python διαχειρίζεται αυτόματα τα ειδικά σύμβολα
+                                f.write(f'#EXTINF:-1 group-title="{pl["group"]}" tvg-logo="{pl["logo"]}",{title}\n')
+                                f.write(f'plugin://plugin.video.youtube/play/?video_id={vid}\n')
+                                
+                    except Exception as e:
+                        print(f"Error processing list {pl['group']}: {e}")
 
     - name: Commit and Push changes
       run: |
         git config --global user.name "GitHub Action"
         git config --global user.email "action@github.com"
-        
-        # Προσθέτουμε το αρχείο
         git add playlist.m3u
-        
-        # Ελέγχουμε αν υπάρχει αλλαγή και κάνουμε push
-        # Αν αποτύχει το απλό push, προσπαθεί να κάνει pull και μετά push
+        # Force rebase για να μην κολλήσει ποτέ ξανά
         git diff --quiet && git diff --staged --quiet || (git commit -m "Update playlist" && (git push || (git pull --rebase origin main && git push)))
