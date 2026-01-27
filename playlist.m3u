@@ -53,10 +53,10 @@ plugin://plugin.video.trailers/?action=play&video_id=ajzHLv_mwFU
 plugin://plugin.video.trailers/?action=play&video_id=tMyqr2zUEes
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",GOAT: Ο ΔΡΟΜΟΣ ΠΡΟΣ ΤΗΝ ΚΟΡΥΦΗ - new trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=mTE6l6-bP40
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SUPER MARIO GALAXY: Η ΤΑΙΝΙΑ - teaser trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=Z5h-5XUtECE
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SUPER MARIO GALAXY: Η ΤΑΙΝΙΑ - teaser trailer (μεταγλ)
-plugin://plugin.video.trailers/?action=play&video_id=YfI3ymvloig
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SUPER MARIO GALAXY: Η ΤΑΙΝΙΑ - new trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=V5Xdjxby8_4
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SUPER MARIO GALAXY: Η ΤΑΙΝΙΑ - new trailer (μεταγλ)
+plugin://plugin.video.trailers/?action=play&video_id=i_KS9uouG0Y
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΙΣΤΕ ΕΤΟΙΜΟΙ; 2 (Ready or Not 2: Here I Come) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=s9VQTB4Syy4
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΜΟΥΜΙΑ ΑΠΟ ΤΟΝ ΛΙ ΚΡΟΝΙΝ (Lee Cronin's The Mummy) - teaser trailer (greek subs)
@@ -331,6 +331,8 @@ plugin://plugin.video.trailers/?action=play&video_id=A5UnObfgdVI
 plugin://plugin.video.trailers/?action=play&video_id=NPm1em9uhr0
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",GHOSTBUSTERS: Η ΑΥΤΟΚΡΑΤΟΡΙΑ ΤΟΥ ΠΑΓΟΥ (Ghostbusters: Frozen Empire) – Official Trailer
 plugin://plugin.video.trailers/?action=play&video_id=sUw01b0C_XA
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",ΤΣΑΡΛΙ Ο ΣΟΥΠΕΡ-ΣΚΥΛΟΣ - Trailer | 26 Φεβρουαρίου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=tTGk9GbXRJI
 #EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",ΟΙ ΔΙΚΟΙ ΜΟΥ ΑΝΘΡΩΠΟΙ (MY PEOPLE) - Trailer | 22 Iανουαρίου στους κινηματογράφους από την TFG
 plugin://plugin.video.trailers/?action=play&video_id=EfrtVopoiq4
 #EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",GREENLAND 2 - Trailer 2 | January 8th in cinemas from TFG
