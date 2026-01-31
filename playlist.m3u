@@ -5,20 +5,22 @@ plugin://plugin.video.trailers/?action=play&video_id=SSgVcftPGjI
 plugin://plugin.video.trailers/?action=play&video_id=WoFh_bRqWYI
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΑΝΕΜΟΔΑΡΜΕΝΑ ΥΨΗ (Wuthering Heights) - new trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=9NZDJ0WFW-0
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΒΟΗΘΕΙΑ! (Send Help) - official trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=JcUc7_9OJPs
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Ο ΔΡΟΜΟΣ ΤΟΥ ΕΓΚΛΗΜΑΤΟΣ (Crime 101) - official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=ZggXj3rrCts
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΠΙΣΤΡΟΦΗ ΣΤΟ SILENT HILL (Return To Silent Hill) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=0zoe3tgHbZU
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",EPiC: ELVIS PRESLEY IN CONCERT - trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=FrZqcEIk38I
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΒΟΗΘΕΙΑ! (Send Help) - official trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=JcUc7_9OJPs
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΠΟΛΥ ΚΟΡΙΤΣΙΣΤΙΚΟ ΟΝΟΜΑ ΤΟ ΠΑΤΤΥ - trailer
-plugin://plugin.video.trailers/?action=play&video_id=85Heliai2ds
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΝΥΦΗ (The Bride!) - new trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=M4EvQoembvg
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",EPiC: ELVIS PRESLEY IN CONCERT - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=FrZqcEIk38I
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΠΟΛΥ ΚΟΡΙΤΣΙΣΤΙΚΟ ΟΝΟΜΑ ΤΟ ΠΑΤΤΥ - trailer
+plugin://plugin.video.trailers/?action=play&video_id=85Heliai2ds
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",RABBIT TRAP - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=rhuZVv-OfJs
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",THE SECRET AGENT (The Secret Agent) - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=k-IUCiAb2Pc
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΑΠΟΣΤΟΛΗ ΧΑΙΡΕ ΜΑΡΙΑ (Project Hail Mary) - new trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=UYQ_wDWqnUU
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SCREAM 7 - official trailer (greek subs)
