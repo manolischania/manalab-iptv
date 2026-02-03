@@ -43,8 +43,8 @@ plugin://plugin.video.trailers/?action=play&video_id=T0DiVgQIzmg
 plugin://plugin.video.trailers/?action=play&video_id=7HFJ1vDx04c
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΚΑΡΟ ΝΙΝΤΖΑ 3 (Checkered Ninja 3) - trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=UOLCbdMv5AM
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Ο ΔΙΑΒΟΛΟΣ ΦΟΡΑΕΙ PRADA 2 (The Devil Wears Prada 2) teaser trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=s-rEtP3gRfY
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Ο ΔΙΑΒΟΛΟΣ ΦΟΡΑΕΙ PRADA 2 (The Devil Wears Prada 2) official trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=rgPK4SLtr3c
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",BILLIE EILISH – HIT ME HARD AND SOFT: THE TOUR - official trailer
 plugin://plugin.video.trailers/?action=play&video_id=_tiNt-1Qu_E
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SCARLET - official trailer (greek subs)
@@ -95,6 +95,8 @@ plugin://plugin.video.trailers/?action=play&video_id=YqsLbjoJmpA
 plugin://plugin.video.trailers/?action=play&video_id=74fo5u9_6iw
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΚΔΙΚΗΤΕΣ: Η ΑΝΟΔΟΣ ΤΟΥ DOCTOR DOOM (Avengers: Doomsday) CAPTAIN AMERICA (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=LQKenBkEVVA
+#EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",Ο ΔΙΑΒΟΛΟΣ ΦΟΡΑΕΙ PRADA 2 (The Devil Wears Prada 2) – Official Trailer
+plugin://plugin.video.trailers/?action=play&video_id=nRqoc-G3p-8
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",Ο ΔΡΟΜΟΣ ΤΟΥ ΕΓΚΛΗΜΑΤΟΣ (Crime 101) - Official Trailer 2
 plugin://plugin.video.trailers/?action=play&video_id=0-5eWPL5yoc
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",ΤΟ ΣΦΥΡΙΓΜΑ ΤΟΥ ΘΑΝΑΤΟΥ (Whistle) – Official Teaser
