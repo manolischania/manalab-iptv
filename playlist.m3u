@@ -5,6 +5,8 @@ plugin://plugin.video.trailers/?action=play&video_id=SSgVcftPGjI
 plugin://plugin.video.trailers/?action=play&video_id=WoFh_bRqWYI
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΑΝΕΜΟΔΑΡΜΕΝΑ ΥΨΗ (Wuthering Heights) - new trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=9NZDJ0WFW-0
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΤΕΛΕΥΤΑΙΑ ΚΛΗΣΗ - trailer
+plugin://plugin.video.trailers/?action=play&video_id=Jnq_uTf4T8Q
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΒΟΗΘΕΙΑ! (Send Help) - official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=JcUc7_9OJPs
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Ο ΔΡΟΜΟΣ ΤΟΥ ΕΓΚΛΗΜΑΤΟΣ (Crime 101) - official trailer (greek subs)
@@ -25,8 +27,8 @@ plugin://plugin.video.trailers/?action=play&video_id=k-IUCiAb2Pc
 plugin://plugin.video.trailers/?action=play&video_id=UYQ_wDWqnUU
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SCREAM 7 - official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=xK3jFxQsArE
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MICHAEL - teaser trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=7VdRORutz_U
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MICHAEL - new trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=vT4ZHfB5MPc
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΘΑΝΑΣΙΜΗ ΑΠΕΙΛΗ (Cold Storage) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=vTkr2xHjB94
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΤΟ ΣΦΥΡΙΓΜΑ ΤΟΥ ΘΑΝΑΤΟΥ (Whistle) - official trailer (greek subs)
@@ -337,7 +339,9 @@ plugin://plugin.video.trailers/?action=play&video_id=A5UnObfgdVI
 plugin://plugin.video.trailers/?action=play&video_id=NPm1em9uhr0
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",GHOSTBUSTERS: Η ΑΥΤΟΚΡΑΤΟΡΙΑ ΤΟΥ ΠΑΓΟΥ (Ghostbusters: Frozen Empire) – Official Trailer
 plugin://plugin.video.trailers/?action=play&video_id=sUw01b0C_XA
-#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",COUTURE - Trailer | Σύντομα στους κινηματογράφους από την TFG
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",COUTURE - Trailer | 19 Μαρτίου στους κινηματογράφους από την TFG
+plugin://plugin.video.trailers/?action=play&video_id=T0YxveDXkEY
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",COUTURE - Trailer | 19 Μαρτίου στους κινηματογράφους από την TFG
 plugin://plugin.video.trailers/?action=play&video_id=2qdnTdjB0Vs
 #EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",ΤΣΑΡΛΙ Ο ΣΟΥΠΕΡ-ΣΚΥΛΟΣ - Trailer | 26 Φεβρουαρίου στους κινηματογράφους από την TFG
 plugin://plugin.video.trailers/?action=play&video_id=tTGk9GbXRJI
