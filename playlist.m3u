@@ -1,18 +1,16 @@
 #EXTM3U
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΑΝΤΙΠΑΛΟΙ ΓΙΑ ΚΑΛΟ - Η ΕΝΩΣΗ @ Village Cinemas
+plugin://plugin.video.trailers/?action=play&video_id=Aagy_sGTDoU
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",The Rose: Come Back to Me @ Village Cinemas
+plugin://plugin.video.trailers/?action=play&video_id=NGJjNxF4GsY
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΦΙΛΟΙ ΓΙΑ ΠΑΝΤΑ - official trailer
 plugin://plugin.video.trailers/?action=play&video_id=SSgVcftPGjI
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Stray Kids: The dominATE Experience @ Village Cinemas
-plugin://plugin.video.trailers/?action=play&video_id=WoFh_bRqWYI
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΑΝΕΜΟΔΑΡΜΕΝΑ ΥΨΗ (Wuthering Heights) - new trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=9NZDJ0WFW-0
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΤΕΛΕΥΤΑΙΑ ΚΛΗΣΗ - trailer
 plugin://plugin.video.trailers/?action=play&video_id=Jnq_uTf4T8Q
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΒΟΗΘΕΙΑ! (Send Help) - official trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=JcUc7_9OJPs
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Ο ΔΡΟΜΟΣ ΤΟΥ ΕΓΚΛΗΜΑΤΟΣ (Crime 101) - official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=ZggXj3rrCts
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΠΙΣΤΡΟΦΗ ΣΤΟ SILENT HILL (Return To Silent Hill) - trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=0zoe3tgHbZU
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΝΥΦΗ (The Bride!) - new trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=M4EvQoembvg
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",EPiC: ELVIS PRESLEY IN CONCERT - trailer (greek subs)
@@ -33,12 +31,8 @@ plugin://plugin.video.trailers/?action=play&video_id=vT4ZHfB5MPc
 plugin://plugin.video.trailers/?action=play&video_id=vTkr2xHjB94
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΤΟ ΣΦΥΡΙΓΜΑ ΤΟΥ ΘΑΝΑΤΟΥ (Whistle) - official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=NPVJsdG2Bh8
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΚΛΕΙΔΩΣΕΣ; ΟΙ ΑΓΝΩΣΤΟΙ 3 (The Strangers: Chapter 3) - trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=DMsJ7ZPwuZ4
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΘΑ ΣΕ ΣΚΟΤΩΣΟΥΝ (They Will Kill You) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=gOlViDgQCDs
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΔΙΠΛΟΔΟΚΟΣ, ΤΟ ΔΕΙΝΟΣΑΥΡΑΚΙ (Diplodocus) trailer (μεταγλ)
-plugin://plugin.video.trailers/?action=play&video_id=wAOY4MvmCcU
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΕΛΙ ΚΑΙ Η ΠΑΡΕΑ ΤΩΝ ΦΑΝΤΑΣΜΑΤΩΝ (Elli and Her Monster Team) trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=T0DiVgQIzmg
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΤΣΑΡΛΙ Ο ΣΟΥΠΕΡ-ΣΚΥΛΟΣ (Charlie the Wonderdog) - trailer (μεταγλ)
