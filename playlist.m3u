@@ -91,6 +91,8 @@ plugin://plugin.video.trailers/?action=play&video_id=YqsLbjoJmpA
 plugin://plugin.video.trailers/?action=play&video_id=74fo5u9_6iw
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΚΔΙΚΗΤΕΣ: Η ΑΝΟΔΟΣ ΤΟΥ DOCTOR DOOM (Avengers: Doomsday) CAPTAIN AMERICA (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=LQKenBkEVVA
+#EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",ΑΠΟΣΤΟΛΗ ΧΑΙΡΕ ΜΑΡΙΑ (Project Hail Mary) - Final Trailer
+plugin://plugin.video.trailers/?action=play&video_id=F68u6v60JAk
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",Ο ΔΙΑΒΟΛΟΣ ΦΟΡΑΕΙ PRADA 2 (The Devil Wears Prada 2) – Official Trailer
 plugin://plugin.video.trailers/?action=play&video_id=nRqoc-G3p-8
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",Ο ΔΡΟΜΟΣ ΤΟΥ ΕΓΚΛΗΜΑΤΟΣ (Crime 101) - Official Trailer 2
