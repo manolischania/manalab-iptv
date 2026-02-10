@@ -21,10 +21,10 @@ plugin://plugin.video.trailers/?action=play&video_id=85Heliai2ds
 plugin://plugin.video.trailers/?action=play&video_id=rhuZVv-OfJs
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",THE SECRET AGENT (The Secret Agent) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=k-IUCiAb2Pc
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΑΠΟΣΤΟΛΗ ΧΑΙΡΕ ΜΑΡΙΑ (Project Hail Mary) - new trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=UYQ_wDWqnUU
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SCREAM 7 - official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=xK3jFxQsArE
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΑΠΟΣΤΟΛΗ ΧΑΙΡΕ ΜΑΡΙΑ (Project Hail Mary) - final trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=h7sf7wnf7U8
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MICHAEL - new trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=vT4ZHfB5MPc
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΘΑΝΑΣΙΜΗ ΑΠΕΙΛΗ (Cold Storage) - trailer (greek subs)
@@ -41,6 +41,8 @@ plugin://plugin.video.trailers/?action=play&video_id=7HFJ1vDx04c
 plugin://plugin.video.trailers/?action=play&video_id=UOLCbdMv5AM
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Ο ΔΙΑΒΟΛΟΣ ΦΟΡΑΕΙ PRADA 2 (The Devil Wears Prada 2) official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=rgPK4SLtr3c
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",THE DRAMA - official trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=fWl9q_LejA0
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",BILLIE EILISH – HIT ME HARD AND SOFT: THE TOUR - official trailer
 plugin://plugin.video.trailers/?action=play&video_id=_tiNt-1Qu_E
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SCARLET - official trailer (greek subs)
@@ -85,6 +87,10 @@ plugin://plugin.video.trailers/?action=play&video_id=zYQ-cbw4Lgk
 plugin://plugin.video.trailers/?action=play&video_id=oQWxq36B8Ns
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΗΜΕΡΑ ΑΠΟΚΑΛΥΨΗΣ (Disclosure Day) trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=sLxq1gkPwFI
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MINIONS & ΤΕΡΑΤΑ (Minions & Monsters) teaser trailer (μεταγλ)
+plugin://plugin.video.trailers/?action=play&video_id=ngehd-Lqx6M
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MINIONS & ΤΕΡΑΤΑ (Minions & Monsters) teaser trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=BvrIkaqPazk
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",DIGGER - teaser trailer
 plugin://plugin.video.trailers/?action=play&video_id=YqsLbjoJmpA
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",THE HUNGER GAMES: Η ΑΝΑΤΟΛΗ ΤΟΥ ΘΕΡΙΣΜΟΥ (Sunrise on the Reaping) trailer (greek subs)
