@@ -25,6 +25,8 @@ plugin://plugin.video.trailers/?action=play&video_id=k-IUCiAb2Pc
 plugin://plugin.video.trailers/?action=play&video_id=xK3jFxQsArE
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΑΠΟΣΤΟΛΗ ΧΑΙΡΕ ΜΑΡΙΑ (Project Hail Mary) - final trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=h7sf7wnf7U8
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",The Captive - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=Dz57yuJRA6U
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MICHAEL - new trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=vT4ZHfB5MPc
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΘΑΝΑΣΙΜΗ ΑΠΕΙΛΗ (Cold Storage) - trailer (greek subs)
@@ -341,6 +343,8 @@ plugin://plugin.video.trailers/?action=play&video_id=A5UnObfgdVI
 plugin://plugin.video.trailers/?action=play&video_id=NPm1em9uhr0
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",GHOSTBUSTERS: Η ΑΥΤΟΚΡΑΤΟΡΙΑ ΤΟΥ ΠΑΓΟΥ (Ghostbusters: Frozen Empire) – Official Trailer
 plugin://plugin.video.trailers/?action=play&video_id=sUw01b0C_XA
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",O ΒΑΣΙΛΙΑΣ ΤΩΝ ΒΑΣΙΛΙΑΔΩΝ: ΜΙΑ ΙΣΤΟΡΙΑ ΑΠΟ ΤΟΝ ΚΑΡΟΛΟ ΝΤΙΚΕΝΣ  -Trailer | Τον Απρίλιο στους κιν/φους
+plugin://plugin.video.trailers/?action=play&video_id=0j7BpgY9DBc
 #EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",COUTURE - Trailer | 19 Μαρτίου στους κινηματογράφους από την TFG
 plugin://plugin.video.trailers/?action=play&video_id=T0YxveDXkEY
 #EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",COUTURE - Trailer | 19 Μαρτίου στους κινηματογράφους από την TFG
