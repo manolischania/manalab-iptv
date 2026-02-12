@@ -5,8 +5,6 @@ plugin://plugin.video.trailers/?action=play&video_id=Aagy_sGTDoU
 plugin://plugin.video.trailers/?action=play&video_id=NGJjNxF4GsY
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΦΙΛΟΙ ΓΙΑ ΠΑΝΤΑ - official trailer
 plugin://plugin.video.trailers/?action=play&video_id=SSgVcftPGjI
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΑΝΕΜΟΔΑΡΜΕΝΑ ΥΨΗ (Wuthering Heights) - new trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=9NZDJ0WFW-0
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΤΕΛΕΥΤΑΙΑ ΚΛΗΣΗ - trailer
 plugin://plugin.video.trailers/?action=play&video_id=Jnq_uTf4T8Q
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Ο ΔΡΟΜΟΣ ΤΟΥ ΕΓΚΛΗΜΑΤΟΣ (Crime 101) - official trailer (greek subs)
@@ -17,6 +15,8 @@ plugin://plugin.video.trailers/?action=play&video_id=M4EvQoembvg
 plugin://plugin.video.trailers/?action=play&video_id=FrZqcEIk38I
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΠΟΛΥ ΚΟΡΙΤΣΙΣΤΙΚΟ ΟΝΟΜΑ ΤΟ ΠΑΤΤΥ - trailer
 plugin://plugin.video.trailers/?action=play&video_id=85Heliai2ds
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ENHYPEN @ Village Cinemas
+plugin://plugin.video.trailers/?action=play&video_id=6UHCfKb_ZOk
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",RABBIT TRAP - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=rhuZVv-OfJs
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",THE SECRET AGENT (The Secret Agent) - trailer (greek subs)
@@ -25,6 +25,8 @@ plugin://plugin.video.trailers/?action=play&video_id=k-IUCiAb2Pc
 plugin://plugin.video.trailers/?action=play&video_id=xK3jFxQsArE
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΑΠΟΣΤΟΛΗ ΧΑΙΡΕ ΜΑΡΙΑ (Project Hail Mary) - final trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=h7sf7wnf7U8
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΑΡΚΟ (Arco) - trailer (μεταγλ)
+plugin://plugin.video.trailers/?action=play&video_id=KS3xwUI_wJ4
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",The Captive - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=Dz57yuJRA6U
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MICHAEL - new trailer (greek subs)
@@ -53,10 +55,6 @@ plugin://plugin.video.trailers/?action=play&video_id=L6Fag5WbFMs
 plugin://plugin.video.trailers/?action=play&video_id=4gUQ0Xi0uaA
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΣΤΟΝ ΚΟΣΜΟ ΤΩΝ ΖΩΩΝ (Hoppers) - official trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=ajzHLv_mwFU
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",GOAT: Ο ΔΡΟΜΟΣ ΠΡΟΣ ΤΗΝ ΚΟΡΥΦΗ - new trailer (μεταγλ)
-plugin://plugin.video.trailers/?action=play&video_id=tMyqr2zUEes
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",GOAT: Ο ΔΡΟΜΟΣ ΠΡΟΣ ΤΗΝ ΚΟΡΥΦΗ - new trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=mTE6l6-bP40
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SUPER MARIO GALAXY: Η ΤΑΙΝΙΑ - new trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=V5Xdjxby8_4
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SUPER MARIO GALAXY: Η ΤΑΙΝΙΑ - new trailer (μεταγλ)
@@ -99,6 +97,10 @@ plugin://plugin.video.trailers/?action=play&video_id=YqsLbjoJmpA
 plugin://plugin.video.trailers/?action=play&video_id=74fo5u9_6iw
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΚΔΙΚΗΤΕΣ: Η ΑΝΟΔΟΣ ΤΟΥ DOCTOR DOOM (Avengers: Doomsday) CAPTAIN AMERICA (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=LQKenBkEVVA
+#EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",SCREAM 7 – Phone 9x16 Spot
+plugin://plugin.video.trailers/?action=play&video_id=wTsJNbSEI-0
+#EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",SCREAM 7 – Legacy Spot
+plugin://plugin.video.trailers/?action=play&video_id=XMZlKQDmNi0
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",ΑΠΟΣΤΟΛΗ ΧΑΙΡΕ ΜΑΡΙΑ (Project Hail Mary) - Final Trailer
 plugin://plugin.video.trailers/?action=play&video_id=F68u6v60JAk
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",Ο ΔΙΑΒΟΛΟΣ ΦΟΡΑΕΙ PRADA 2 (The Devil Wears Prada 2) – Official Trailer
