@@ -1,14 +1,12 @@
 #EXTM3U
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΑΝΤΙΠΑΛΟΙ ΓΙΑ ΚΑΛΟ - Η ΕΝΩΣΗ @ Village Cinemas
 plugin://plugin.video.trailers/?action=play&video_id=Aagy_sGTDoU
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",The Rose: Come Back to Me @ Village Cinemas
-plugin://plugin.video.trailers/?action=play&video_id=NGJjNxF4GsY
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΦΙΛΟΙ ΓΙΑ ΠΑΝΤΑ - official trailer
 plugin://plugin.video.trailers/?action=play&video_id=SSgVcftPGjI
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",The Rose: Come Back to Me @ Village Cinemas
+plugin://plugin.video.trailers/?action=play&video_id=NGJjNxF4GsY
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΤΕΛΕΥΤΑΙΑ ΚΛΗΣΗ - trailer
 plugin://plugin.video.trailers/?action=play&video_id=Jnq_uTf4T8Q
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Ο ΔΡΟΜΟΣ ΤΟΥ ΕΓΚΛΗΜΑΤΟΣ (Crime 101) - official trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=ZggXj3rrCts
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΝΥΦΗ (The Bride!) - new trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=M4EvQoembvg
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",EPiC: ELVIS PRESLEY IN CONCERT - trailer (greek subs)
@@ -17,10 +15,6 @@ plugin://plugin.video.trailers/?action=play&video_id=FrZqcEIk38I
 plugin://plugin.video.trailers/?action=play&video_id=85Heliai2ds
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ENHYPEN @ Village Cinemas
 plugin://plugin.video.trailers/?action=play&video_id=6UHCfKb_ZOk
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",RABBIT TRAP - trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=rhuZVv-OfJs
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",THE SECRET AGENT (The Secret Agent) - trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=k-IUCiAb2Pc
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SCREAM 7 - official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=xK3jFxQsArE
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΑΠΟΣΤΟΛΗ ΧΑΙΡΕ ΜΑΡΙΑ (Project Hail Mary) - final trailer (greek subs)
@@ -61,8 +55,12 @@ plugin://plugin.video.trailers/?action=play&video_id=V5Xdjxby8_4
 plugin://plugin.video.trailers/?action=play&video_id=i_KS9uouG0Y
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΙΣΤΕ ΕΤΟΙΜΟΙ; 2 (Ready or Not 2: Here I Come) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=s9VQTB4Syy4
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",THE GRACE (La Grazia) - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=jvSMfen1gjw
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΜΟΥΜΙΑ ΑΠΟ ΤΟΝ ΛΙ ΚΡΟΝΙΝ (Lee Cronin's The Mummy) - teaser trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=WX_3hChpIgg
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",GOOD LUCK HAVE FUN DONT DIE - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=O7_Sf3bNOm8
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MOTHER MARY - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=RYIWrQZn7ko
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MORTAL KOMBAT II - trailer (greek subs)
