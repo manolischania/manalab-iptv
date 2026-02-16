@@ -51,6 +51,8 @@ plugin://plugin.video.trailers/?action=play&video_id=L6Fag5WbFMs
 plugin://plugin.video.trailers/?action=play&video_id=4gUQ0Xi0uaA
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΣΤΟΝ ΚΟΣΜΟ ΤΩΝ ΖΩΩΝ (Hoppers) - official trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=ajzHLv_mwFU
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΜΥΣΤΙΚΟΣ ΠΡΑΚΤΟΡΑΣ ΜΠΕΡΝΙ: ΑΠΟΣΤΟΛΗ ΣΤΟΝ ΑΡΗ - trailer (μεταγλ)
+plugin://plugin.video.trailers/?action=play&video_id=bkegU9F1PYo
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SUPER MARIO GALAXY: Η ΤΑΙΝΙΑ - new trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=V5Xdjxby8_4
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SUPER MARIO GALAXY: Η ΤΑΙΝΙΑ - new trailer (μεταγλ)
