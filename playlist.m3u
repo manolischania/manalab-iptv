@@ -1,12 +1,8 @@
 #EXTM3U
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",HOKUM - teaser trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=fLXlrmipvck
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΑΝΤΙΠΑΛΟΙ ΓΙΑ ΚΑΛΟ - Η ΕΝΩΣΗ @ Village Cinemas
 plugin://plugin.video.trailers/?action=play&video_id=Aagy_sGTDoU
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΦΙΛΟΙ ΓΙΑ ΠΑΝΤΑ - official trailer
 plugin://plugin.video.trailers/?action=play&video_id=SSgVcftPGjI
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",The Rose: Come Back to Me @ Village Cinemas
-plugin://plugin.video.trailers/?action=play&video_id=NGJjNxF4GsY
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΤΕΛΕΥΤΑΙΑ ΚΛΗΣΗ - trailer
 plugin://plugin.video.trailers/?action=play&video_id=Jnq_uTf4T8Q
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΝΥΦΗ (The Bride!) - new trailer (greek subs)
@@ -63,10 +59,12 @@ plugin://plugin.video.trailers/?action=play&video_id=s9VQTB4Syy4
 plugin://plugin.video.trailers/?action=play&video_id=jvSMfen1gjw
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΜΟΥΜΙΑ ΑΠΟ ΤΟΝ ΛΙ ΚΡΟΝΙΝ (Lee Cronin's The Mummy) - teaser trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=WX_3hChpIgg
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",GOOD LUCK HAVE FUN DONT DIE - trailer (greek subs)
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",GOOD LUCK HAVE FUN DON'T DIE - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=O7_Sf3bNOm8
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MOTHER MARY - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=RYIWrQZn7ko
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",HOKUM - teaser trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=fLXlrmipvck
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MORTAL KOMBAT II - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=539TkanPhdY
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΙ ΜΑΛΛΙΑΡΟΙ ΝΤΕΤΕΚΤΙΒ (The Sheep Detectives) official trailer (μεταγλ)
@@ -99,6 +97,8 @@ plugin://plugin.video.trailers/?action=play&video_id=YqsLbjoJmpA
 plugin://plugin.video.trailers/?action=play&video_id=74fo5u9_6iw
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΚΔΙΚΗΤΕΣ: Η ΑΝΟΔΟΣ ΤΟΥ DOCTOR DOOM (Avengers: Doomsday) CAPTAIN AMERICA (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=LQKenBkEVVA
+#EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",ΕΙΣΑΙ ΕΤΟΙΜΟΣ; 2 (Ready Or Not: Here I Come) – New Official Trailer
+plugin://plugin.video.trailers/?action=play&video_id=FoHV-YkyaLE
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",SCREAM 7 – Phone 9x16 Spot
 plugin://plugin.video.trailers/?action=play&video_id=wTsJNbSEI-0
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",SCREAM 7 – Legacy Spot
