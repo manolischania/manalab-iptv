@@ -17,24 +17,14 @@ plugin://plugin.video.trailers/?action=play&video_id=6UHCfKb_ZOk
 plugin://plugin.video.trailers/?action=play&video_id=xK3jFxQsArE
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΑΠΟΣΤΟΛΗ ΧΑΙΡΕ ΜΑΡΙΑ (Project Hail Mary) - final trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=h7sf7wnf7U8
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΑΡΚΟ (Arco) - trailer (μεταγλ)
-plugin://plugin.video.trailers/?action=play&video_id=KS3xwUI_wJ4
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",The Captive - trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=Dz57yuJRA6U
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MICHAEL - new trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=vT4ZHfB5MPc
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΘΑΝΑΣΙΜΗ ΑΠΕΙΛΗ (Cold Storage) - trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=vTkr2xHjB94
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΤΟ ΣΦΥΡΙΓΜΑ ΤΟΥ ΘΑΝΑΤΟΥ (Whistle) - official trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=NPVJsdG2Bh8
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΘΑ ΣΕ ΣΚΟΤΩΣΟΥΝ (They Will Kill You) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=gOlViDgQCDs
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΕΛΙ ΚΑΙ Η ΠΑΡΕΑ ΤΩΝ ΦΑΝΤΑΣΜΑΤΩΝ (Elli and Her Monster Team) trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=T0DiVgQIzmg
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΤΣΑΡΛΙ Ο ΣΟΥΠΕΡ-ΣΚΥΛΟΣ (Charlie the Wonderdog) - trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=7HFJ1vDx04c
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΚΑΡΟ ΝΙΝΤΖΑ 3 (Checkered Ninja 3) - trailer (μεταγλ)
-plugin://plugin.video.trailers/?action=play&video_id=UOLCbdMv5AM
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Ο ΔΙΑΒΟΛΟΣ ΦΟΡΑΕΙ PRADA 2 (The Devil Wears Prada 2) official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=rgPK4SLtr3c
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",THE DRAMA - official trailer (greek subs)
@@ -43,8 +33,6 @@ plugin://plugin.video.trailers/?action=play&video_id=fWl9q_LejA0
 plugin://plugin.video.trailers/?action=play&video_id=_tiNt-1Qu_E
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SCARLET - official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=L6Fag5WbFMs
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΙΚΟΓΕΝΕΙΑ ΠΡΟΣ ΕΝΟΙΚΙΑΣΗ (Rental Family) trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=4gUQ0Xi0uaA
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΣΤΟΝ ΚΟΣΜΟ ΤΩΝ ΖΩΩΝ (Hoppers) - official trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=ajzHLv_mwFU
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΜΥΣΤΙΚΟΣ ΠΡΑΚΤΟΡΑΣ ΜΠΕΡΝΙ: ΑΠΟΣΤΟΛΗ ΣΤΟΝ ΑΡΗ - trailer (μεταγλ)
@@ -67,14 +55,14 @@ plugin://plugin.video.trailers/?action=play&video_id=RYIWrQZn7ko
 plugin://plugin.video.trailers/?action=play&video_id=fLXlrmipvck
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MORTAL KOMBAT II - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=539TkanPhdY
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",STAR WARS: THE MANDALORIAN AND GROGU - new official trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=rWv9vrDR1Ow
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΙ ΜΑΛΛΙΑΡΟΙ ΝΤΕΤΕΚΤΙΒ (The Sheep Detectives) official trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=dfXF19G47aQ
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΙ ΜΑΛΛΙΑΡΟΙ ΝΤΕΤΕΚΤΙΒ (The Sheep Detectives) official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=xUonESwgVGQ
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΣΟΝ ΤΟ ΠΡΟΒΑΤΟ ΚΑΙ ΤΟ ΤΕΡΑΣ ΤΗΣ ΦΑΡΜΑΣ (Shaun the Sheep: The Beast of Mossy Bottom) - teaser
 plugin://plugin.video.trailers/?action=play&video_id=R_1HVDUi4bk
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",STAR WARS: THE MANDALORIAN AND GROGU - official trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=BK7nmdQ95z0
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΙ ΚΥΡΙΑΡΧΟΙ ΤΟΥ ΣΥΜΠΑΝΤΟΣ (Masters of the Universe) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=rJEZxipstW0
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SUPERGIRL - trailer (greek subs)
@@ -97,6 +85,8 @@ plugin://plugin.video.trailers/?action=play&video_id=YqsLbjoJmpA
 plugin://plugin.video.trailers/?action=play&video_id=74fo5u9_6iw
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΚΔΙΚΗΤΕΣ: Η ΑΝΟΔΟΣ ΤΟΥ DOCTOR DOOM (Avengers: Doomsday) CAPTAIN AMERICA (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=LQKenBkEVVA
+#EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",THE MANDALORIAN & GROGU – Official Trailer
+plugin://plugin.video.trailers/?action=play&video_id=_K-KrAeA4Ao
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",ΕΙΣΑΙ ΕΤΟΙΜΟΣ; 2 (Ready Or Not: Here I Come) – New Official Trailer
 plugin://plugin.video.trailers/?action=play&video_id=FoHV-YkyaLE
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",SCREAM 7 – Phone 9x16 Spot
