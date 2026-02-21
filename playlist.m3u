@@ -3,12 +3,12 @@
 plugin://plugin.video.trailers/?action=play&video_id=Aagy_sGTDoU
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΦΙΛΟΙ ΓΙΑ ΠΑΝΤΑ - official trailer
 plugin://plugin.video.trailers/?action=play&video_id=SSgVcftPGjI
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",EPiC: ELVIS PRESLEY IN CONCERT - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=FrZqcEIk38I
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΤΕΛΕΥΤΑΙΑ ΚΛΗΣΗ - trailer
 plugin://plugin.video.trailers/?action=play&video_id=Jnq_uTf4T8Q
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΝΥΦΗ (The Bride!) - new trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=M4EvQoembvg
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",EPiC: ELVIS PRESLEY IN CONCERT - trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=FrZqcEIk38I
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΠΟΛΥ ΚΟΡΙΤΣΙΣΤΙΚΟ ΟΝΟΜΑ ΤΟ ΠΑΤΤΥ - trailer
 plugin://plugin.video.trailers/?action=play&video_id=85Heliai2ds
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ENHYPEN @ Village Cinemas
@@ -41,12 +41,16 @@ plugin://plugin.video.trailers/?action=play&video_id=bkegU9F1PYo
 plugin://plugin.video.trailers/?action=play&video_id=V5Xdjxby8_4
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SUPER MARIO GALAXY: Η ΤΑΙΝΙΑ - new trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=i_KS9uouG0Y
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΙΣΤΕ ΕΤΟΙΜΟΙ; 2 (Ready or Not 2: Here I Come) - trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=s9VQTB4Syy4
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΠΑΙΖΕΙ ΑΚΟΜΑ; (Is This Thing On?) - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=-uBmJ33mLN0
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",THE GRACE (La Grazia) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=jvSMfen1gjw
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΙΣΑΙ ΕΤΟΙΜΟΣ; 2 (Ready or Not 2: Here I Come) - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=s9VQTB4Syy4
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΜΟΥΜΙΑ ΑΠΟ ΤΟΝ ΛΙ ΚΡΟΝΙΝ (Lee Cronin's The Mummy) - teaser trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=WX_3hChpIgg
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",THE MORTUARY ASSISTANT - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=CWLDBZUlIxw
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",GOOD LUCK HAVE FUN DON'T DIE - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=O7_Sf3bNOm8
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MOTHER MARY - trailer (greek subs)
@@ -67,8 +71,8 @@ plugin://plugin.video.trailers/?action=play&video_id=R_1HVDUi4bk
 plugin://plugin.video.trailers/?action=play&video_id=rJEZxipstW0
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SUPERGIRL - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=zadLlG51LIM
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",TOY STORY 5 - teaser trailer (μεταγλ)
-plugin://plugin.video.trailers/?action=play&video_id=NwFfYD11KZA
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",TOY STORY 5 - official trailer (μεταγλ)
+plugin://plugin.video.trailers/?action=play&video_id=Y73cOdiUUUk
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΒΑΪΑΝΑ (Vaiana) - teaser trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=zYQ-cbw4Lgk
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΔΥΣΣΕΙΑ (The Odyssey) - teaser trailer (greek subs)
@@ -127,7 +131,7 @@ plugin://plugin.video.trailers/?action=play&video_id=C_v8l3A8hqA
 plugin://plugin.video.trailers/?action=play&video_id=-12Iz3sUBfI
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",BILLIE EILISH – HIT ME HARD AND SOFT: THE TOUR (LIVE IN 3D) | Official Trailer
 plugin://plugin.video.trailers/?action=play&video_id=MccDm7gHjSg
-#EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",Ο ΑΣΤΕΡΙΞ ΚΑΙ ΤΟ ΒΑΣΙΛΕΙΟ ΤΗΣ ΝΟΥΒΙΑΣ
+#EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",Ο ΑΣΤΕΡΙΞ ΚΑΙ ΤΟ ΒΑΣΙΛΕΙΟ ΤΗΣ ΝΟΥΒΙΑΣ - Teaser Trailer (Υποτιτλ.)
 plugin://plugin.video.trailers/?action=play&video_id=m9MdDjiPdfQ
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",Η ΕΣΧΑΤΗ ΤΩΝ ΠΟΙΝΩΝ (Mercy) – Official Trailer 2
 plugin://plugin.video.trailers/?action=play&video_id=bVvRyTJH7to
