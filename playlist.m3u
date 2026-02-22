@@ -45,6 +45,8 @@ plugin://plugin.video.trailers/?action=play&video_id=i_KS9uouG0Y
 plugin://plugin.video.trailers/?action=play&video_id=-uBmJ33mLN0
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",THE GRACE (La Grazia) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=jvSMfen1gjw
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΘΑΝΑΣΙΜΑ ΠΛΟΥΣΙΟΣ (How to Make a Killing) - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=Kmg4Pj_5-28
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΙΣΑΙ ΕΤΟΙΜΟΣ; 2 (Ready or Not 2: Here I Come) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=s9VQTB4Syy4
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΜΟΥΜΙΑ ΑΠΟ ΤΟΝ ΛΙ ΚΡΟΝΙΝ (Lee Cronin's The Mummy) - teaser trailer (greek subs)
