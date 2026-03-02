@@ -27,6 +27,8 @@ plugin://plugin.video.trailers/?action=play&video_id=gOlViDgQCDs
 plugin://plugin.video.trailers/?action=play&video_id=T0DiVgQIzmg
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΡΑΛΛΥ ΑΠΟ ΤΟ ΠΑΡΙΣΙ ΣΤΙΣ ΠΥΡΑΜΙΔΕΣ (Rally from Paris to the Pyramids) trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=2GN_bEhgj70
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΧΟΛΙ ΤΟ ΓΕΝΝΑΙΟ ΣΚΑΝΤΖΟΧΟΙΡΑΚΙ (Spiked) - trailer (μεταγλ)
+plugin://plugin.video.trailers/?action=play&video_id=Cal-I0FnS64
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Ο ΔΙΑΒΟΛΟΣ ΦΟΡΑΕΙ PRADA 2 (The Devil Wears Prada 2) official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=rgPK4SLtr3c
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",THE DRAMA - official trailer (greek subs)
