@@ -17,8 +17,6 @@ plugin://plugin.video.trailers/?action=play&video_id=CiL_p_h7xO0
 plugin://plugin.video.trailers/?action=play&video_id=gOlViDgQCDs
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΕΛΙ ΚΑΙ Η ΠΑΡΕΑ ΤΩΝ ΦΑΝΤΑΣΜΑΤΩΝ (Elli and Her Monster Team) trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=T0DiVgQIzmg
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΡΑΛΛΥ ΑΠΟ ΤΟ ΠΑΡΙΣΙ ΣΤΙΣ ΠΥΡΑΜΙΔΕΣ (Rally from Paris to the Pyramids) trailer (μεταγλ)
-plugin://plugin.video.trailers/?action=play&video_id=2GN_bEhgj70
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΧΟΛΙ ΤΟ ΓΕΝΝΑΙΟ ΣΚΑΝΤΖΟΧΟΙΡΑΚΙ (Spiked) - trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=Cal-I0FnS64
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΔΑΒΙΔ: ΤΟ ΑΓΟΡΙ ΠΟΥ ΕΓΙΝΕ ΘΡΥΛΟΣ (David) trailer (μεταγλ)
@@ -37,6 +35,8 @@ plugin://plugin.video.trailers/?action=play&video_id=1LnyclbWMEQ
 plugin://plugin.video.trailers/?action=play&video_id=EWqNFm29O0s
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΜΑΡΣΟΥΠΙΛΑΜΙ (Marsupilami) - trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=rwP7n6SPIFc
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΔΙΑΘΗΚΗ ΤΗΣ ΑΝ ΛΙ (The Testament of Ann Lee) official trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=rpN_fqgPmNA
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΜΟΥΜΙΑ ΑΠΟ ΤΟΝ ΛΙ ΚΡΟΝΙΝ (Lee Cronin's The Mummy) - official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=BOA2d_ljrXw
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΜΙΚΡΗ ΑΜΕΛΙ (Amélie et la métaphysique des tubes) - trailer (μεταγλ)
@@ -75,6 +75,8 @@ plugin://plugin.video.trailers/?action=play&video_id=zadLlG51LIM
 plugin://plugin.video.trailers/?action=play&video_id=Y73cOdiUUUk
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΒΑΪΑΝΑ (Vaiana) - teaser trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=zYQ-cbw4Lgk
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΡΑΛΛΥ ΑΠΟ ΤΟ ΠΑΡΙΣΙ ΣΤΙΣ ΠΥΡΑΜΙΔΕΣ (Rally from Paris to the Pyramids) trailer (μεταγλ)
+plugin://plugin.video.trailers/?action=play&video_id=2GN_bEhgj70
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Asterix and the Kingdom of Nubia (Asterix: The Kingdom of Nubia) teaser trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=NmKq2rPLVV0
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΔΥΣΣΕΙΑ (The Odyssey) - teaser trailer (greek subs)
@@ -91,6 +93,8 @@ plugin://plugin.video.trailers/?action=play&video_id=YqsLbjoJmpA
 plugin://plugin.video.trailers/?action=play&video_id=74fo5u9_6iw
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΚΔΙΚΗΤΕΣ: Η ΑΝΟΔΟΣ ΤΟΥ DOCTOR DOOM (Avengers: Doomsday) CAPTAIN AMERICA (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=LQKenBkEVVA
+#EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",FUZE – Official Trailer
+plugin://plugin.video.trailers/?action=play&video_id=CGddiNJyKSM
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",THAT TIME I GOT REINCARNATED AS A SLIME Η ΤΑΙΝΙΑ: ΤΑ ΔΑΚΡΥΑ ΤΗΣ ΓΑΛΑΖΙΑΣ ΘΑΛΑΣΣΑΣ – Official Trailer
 plugin://plugin.video.trailers/?action=play&video_id=X7hmKVAj5WM
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",Η ΔΙΑΘΗΚΗ ΤΗΣ ΑΝ ΛΙ (The Testament Of Ann Lee) – Official Trailer
