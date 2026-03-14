@@ -19,6 +19,10 @@ plugin://plugin.video.trailers/?action=play&video_id=T0DiVgQIzmg
 plugin://plugin.video.trailers/?action=play&video_id=Cal-I0FnS64
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΔΑΒΙΔ: ΤΟ ΑΓΟΡΙ ΠΟΥ ΕΓΙΝΕ ΘΡΥΛΟΣ (David) trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=tqZyWx1SvJw
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SUPER MARIO GALAXY: Η ΤΑΙΝΙΑ - final trailer (μεταγλ)
+plugin://plugin.video.trailers/?action=play&video_id=E-IbcDMdrtc
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SUPER MARIO GALAXY: Η ΤΑΙΝΙΑ - final trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=gnjexNGll0o
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",A Magnificent Life - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=nz27DS4Ykls
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",THE DRAMA - official trailer (greek subs)
@@ -37,10 +41,6 @@ plugin://plugin.video.trailers/?action=play&video_id=EWqNFm29O0s
 plugin://plugin.video.trailers/?action=play&video_id=rwP7n6SPIFc
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΜΙΚΡΗ ΑΜΕΛΙ (Amélie et la métaphysique des tubes) - trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=nq3FiFas6zI
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SUPER MARIO GALAXY: Η ΤΑΙΝΙΑ - new trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=V5Xdjxby8_4
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SUPER MARIO GALAXY: Η ΤΑΙΝΙΑ - new trailer (μεταγλ)
-plugin://plugin.video.trailers/?action=play&video_id=i_KS9uouG0Y
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MOTHER MARY - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=RYIWrQZn7ko
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",THAT TIME I GOT REINCARNATED AS A SLIME Η ΤΑΙΝΙΑ: ΤΑ ΔΑΚΡΥΑ ΤΗΣ ΓΑΛΑΖΙΑΣ ΘΑΛΑΣΣΑΣ trailer (gr subs)
