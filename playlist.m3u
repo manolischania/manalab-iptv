@@ -65,6 +65,8 @@ plugin://plugin.video.trailers/?action=play&video_id=R_1HVDUi4bk
 plugin://plugin.video.trailers/?action=play&video_id=_RlO2I9YYGA
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΙ ΚΥΡΙΑΡΧΟΙ ΤΟΥ ΣΥΜΠΑΝΤΟΣ (Masters of the Universe) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=rJEZxipstW0
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΗΜΕΡΑ ΑΠΟΚΑΛΥΨΗΣ (Disclosure Day) new trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=JZ-mIqcXS-E
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SUPERGIRL - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=zadLlG51LIM
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",TOY STORY 5 - official trailer (μεταγλ)
@@ -87,6 +89,8 @@ plugin://plugin.video.trailers/?action=play&video_id=YqsLbjoJmpA
 plugin://plugin.video.trailers/?action=play&video_id=74fo5u9_6iw
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΚΔΙΚΗΤΕΣ: Η ΑΝΟΔΟΣ ΤΟΥ DOCTOR DOOM (Avengers: Doomsday) CAPTAIN AMERICA (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=LQKenBkEVVA
+#EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",SPIDER-MAN: ΚΑΙΝΟΥΡΓΙΑ ΜΕΡΑ (Spider-Man: Brand New Day) – Official Trailer
+plugin://plugin.video.trailers/?action=play&video_id=56M50B8OddA
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",FUZE – Official Trailer
 plugin://plugin.video.trailers/?action=play&video_id=CGddiNJyKSM
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",THAT TIME I GOT REINCARNATED AS A SLIME Η ΤΑΙΝΙΑ: ΤΑ ΔΑΚΡΥΑ ΤΗΣ ΓΑΛΑΖΙΑΣ ΘΑΛΑΣΣΑΣ – Official Trailer
