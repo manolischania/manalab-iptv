@@ -25,22 +25,28 @@ plugin://plugin.video.trailers/?action=play&video_id=E-IbcDMdrtc
 plugin://plugin.video.trailers/?action=play&video_id=gnjexNGll0o
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",A Magnificent Life - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=nz27DS4Ykls
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",IRON MAIDEN: BURNING AMBITION - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=8JUig7nFcWg
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",BILLIE EILISH – HIT ME HARD AND SOFT: THE TOUR - official trailer
 plugin://plugin.video.trailers/?action=play&video_id=_tiNt-1Qu_E
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",PRIMAVERA - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=3HiqcRnCZ68
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",UNDERTONE - official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=nDf0zLGiR34
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MOTHER MARY - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=RYIWrQZn7ko
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",TO ΜΥΣΤΙΚΟ ΤΟΥ ΔΑΣΟΥΣ - official trailer
 plugin://plugin.video.trailers/?action=play&video_id=-yjlBBfKtSU
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MAGELLAN (Magellan) - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=IImP5U9FNas
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",THAT TIME I GOT REINCARNATED AS A SLIME Η ΤΑΙΝΙΑ: ΤΑ ΔΑΚΡΥΑ ΤΗΣ ΓΑΛΑΖΙΑΣ ΘΑΛΑΣΣΑΣ trailer (gr subs)
 plugin://plugin.video.trailers/?action=play&video_id=2o55eJwenIg
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",HOKUM - teaser trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=fLXlrmipvck
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΣΥ, ΕΓΩ & Η ΤΟΣΚΑΝΗ (You, Me & Tuscany) trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=cDEKyGVo2YI
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΘΑΝΑΣΙΜΑ ΠΛΟΥΣΙΟΣ (How to Make a Killing) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=Kmg4Pj_5-28
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΓΩ, ΕΣΥ & Η ΤΟΣΚΑΝΗ (You, Me & Tuscany) trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=cDEKyGVo2YI
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΙ ΜΑΛΛΙΑΡΟΙ ΝΤΕΤΕΚΤΙΒ (The Sheep Detectives) official trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=dfXF19G47aQ
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΙ ΜΑΛΛΙΑΡΟΙ ΝΤΕΤΕΚΤΙΒ (The Sheep Detectives) official trailer (greek subs)
@@ -77,6 +83,8 @@ plugin://plugin.video.trailers/?action=play&video_id=74fo5u9_6iw
 plugin://plugin.video.trailers/?action=play&video_id=LQKenBkEVVA
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",DUNE: ΜΕΡΟΣ ΤΡΙΤΟ (Dune: Part Three) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=UEiuFf50ZwQ
+#EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",IN-I IN MOTION – Official Trailer
+plugin://plugin.video.trailers/?action=play&video_id=xMFawNQgAG0
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",ΒΑΪΑΝΑ - Official Trailer (μεταγλωτ.)
 plugin://plugin.video.trailers/?action=play&video_id=klWlUD-NmqU
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",WILD HORSE NINE – Official Trailer
