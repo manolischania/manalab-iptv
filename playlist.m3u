@@ -43,6 +43,8 @@ plugin://plugin.video.trailers/?action=play&video_id=IImP5U9FNas
 plugin://plugin.video.trailers/?action=play&video_id=2o55eJwenIg
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",HOKUM - teaser trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=fLXlrmipvck
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΓΚΡΙΖΑ ΖΩΝΗ (In the Grey) - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=2_R-5vssHoQ
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΣΥ, ΕΓΩ & Η ΤΟΣΚΑΝΗ (You, Me & Tuscany) trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=cDEKyGVo2YI
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΘΑΝΑΣΙΜΑ ΠΛΟΥΣΙΟΣ (How to Make a Killing) - trailer (greek subs)
