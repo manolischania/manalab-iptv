@@ -7,6 +7,8 @@ plugin://plugin.video.trailers/?action=play&video_id=Fx8OmOh201s
 plugin://plugin.video.trailers/?action=play&video_id=rgPK4SLtr3c
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MICHAEL - new trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=vT4ZHfB5MPc
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",IRON MAIDEN: BURNING AMBITION - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=8JUig7nFcWg
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",STAR WARS: THE MANDALORIAN AND GROGU - new official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=rWv9vrDR1Ow
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΜΟΥΜΙΑ ΑΠΟ ΤΟΝ ΛΙ ΚΡΟΝΙΝ (Lee Cronin's The Mummy) - official trailer (greek subs)
@@ -27,8 +29,6 @@ plugin://plugin.video.trailers/?action=play&video_id=E-IbcDMdrtc
 plugin://plugin.video.trailers/?action=play&video_id=gnjexNGll0o
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",A Magnificent Life - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=nz27DS4Ykls
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",IRON MAIDEN: BURNING AMBITION - trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=8JUig7nFcWg
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",PRIMAVERA - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=3HiqcRnCZ68
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",UNDERTONE - official trailer (greek subs)
@@ -77,6 +77,8 @@ plugin://plugin.video.trailers/?action=play&video_id=NmKq2rPLVV0
 plugin://plugin.video.trailers/?action=play&video_id=J2um_5JPWY4
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΔΥΣΣΕΙΑ (The Odyssey) - teaser trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=oQWxq36B8Ns
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",TO ΤΕΛΟΣ ΤΗΣ ΟΔΟΥ ΟΟΥΚ (The End of Oak Street) - teaser trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=E7ofnbd3qr4
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MINIONS & ΤΕΡΑΤΑ (Minions & Monsters) teaser trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=ngehd-Lqx6M
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MINIONS & ΤΕΡΑΤΑ (Minions & Monsters) teaser trailer (greek subs)
