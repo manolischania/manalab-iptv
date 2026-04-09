@@ -3,8 +3,8 @@
 plugin://plugin.video.trailers/?action=play&video_id=Fx8OmOh201s
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",BANFF CENTRE MOUNTAIN FILM FESTIVAL WT ATHENS 2026 @ Village Cinemas
 plugin://plugin.video.trailers/?action=play&video_id=5NCDxBcVJ4Q
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Ο ΔΙΑΒΟΛΟΣ ΦΟΡΑΕΙ PRADA 2 (The Devil Wears Prada 2) official trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=rgPK4SLtr3c
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Ο ΔΙΑΒΟΛΟΣ ΦΟΡΑΕΙ PRADA 2 (The Devil Wears Prada 2) final trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=ef-aqXKaRcc
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MICHAEL - new trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=vT4ZHfB5MPc
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",IRON MAIDEN: BURNING AMBITION - trailer (greek subs)
@@ -41,6 +41,8 @@ plugin://plugin.video.trailers/?action=play&video_id=2o55eJwenIg
 plugin://plugin.video.trailers/?action=play&video_id=cDEKyGVo2YI
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΘΑΝΑΣΙΜΑ ΠΛΟΥΣΙΟΣ (How to Make a Killing) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=Kmg4Pj_5-28
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΤΡΙΧΕΣ ΚΑΤΣΑΡΕΣ (Curly Burly) - trailer (μεταγλ)
+plugin://plugin.video.trailers/?action=play&video_id=PNU3ZVg7p9c
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΙ ΜΑΛΛΙΑΡΟΙ ΝΤΕΤΕΚΤΙΒ (The Sheep Detectives) new trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=hQnYQ4HLpRg
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΙ ΜΑΛΛΙΑΡΟΙ ΝΤΕΤΕΚΤΙΒ (The Sheep Detectives) official trailer (greek subs)
@@ -87,6 +89,8 @@ plugin://plugin.video.trailers/?action=play&video_id=74fo5u9_6iw
 plugin://plugin.video.trailers/?action=play&video_id=LQKenBkEVVA
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",DUNE: ΜΕΡΟΣ ΤΡΙΤΟ (Dune: Part Three) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=UEiuFf50ZwQ
+#EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",Ο ΔΙΑΒΟΛΟΣ ΦΟΡΑΕΙ PRADA 2 (The Devil Wears Prada 2) – Final Trailer
+plugin://plugin.video.trailers/?action=play&video_id=D31TxELMfzk
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",PAW PATROL: ΚΟΥΤΑΒΙΑ ΚΑΙ ΔΕΙΝΟΣΑΥΡΟΙ (PAW Patrol: The Dino Movie) – Teaser Trailer
 plugin://plugin.video.trailers/?action=play&video_id=ergr1Vl814k
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",ΟΙ ΜΑΛΛΙΑΡΟΙ ΝΤΕΤΕΚΤΙΒ (The Sheep Detectives) – New Official Trailer
