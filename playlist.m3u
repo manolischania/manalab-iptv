@@ -27,6 +27,12 @@ plugin://plugin.video.trailers/?action=play&video_id=MH3KrpEHEVM
 plugin://plugin.video.trailers/?action=play&video_id=to3zwz6-P04
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",THAT TIME I GOT REINCARNATED AS A SLIME Η ΤΑΙΝΙΑ: ΤΑ ΔΑΚΡΥΑ ΤΗΣ ΓΑΛΑΖΙΑΣ ΘΑΛΑΣΣΑΣ trailer (gr subs)
 plugin://plugin.video.trailers/?action=play&video_id=2o55eJwenIg
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Ο ΣΕΡΙΦΗΣ (Normal) - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=Ktz9PrNdBYQ
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",I WAS A STRANGER - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=7CLcSQZwaTs
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",DOLLY - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=6DaYzJdnzxY
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΘΑΝΑΣΙΜΑ ΠΛΟΥΣΙΟΣ (How to Make a Killing) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=Kmg4Pj_5-28
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΤΡΙΧΕΣ ΚΑΤΣΑΡΕΣ (Curly Burly) - trailer (μεταγλ)
@@ -43,6 +49,8 @@ plugin://plugin.video.trailers/?action=play&video_id=_RlO2I9YYGA
 plugin://plugin.video.trailers/?action=play&video_id=JZ-mIqcXS-E
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",INSIDIOUS: ΕΞΩ ΑΠΟ ΤΟ ΑΠΩΤΕΡΟ (Insidious: Out of the Further) - official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=M0G0emw_KD4
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Ο ΕΠΙΒΑΤΗΣ (Passenger) - official trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=RYjJyyHzBtc
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",FUZE - official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=lmFowEGHrHw
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SUPERGIRL - trailer (greek subs)
@@ -73,8 +81,8 @@ plugin://plugin.video.trailers/?action=play&video_id=R0_ptpElXks
 plugin://plugin.video.trailers/?action=play&video_id=2Qwva6pVWks
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",DIGGER - teaser trailer
 plugin://plugin.video.trailers/?action=play&video_id=YqsLbjoJmpA
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",THE HUNGER GAMES: Η ΑΝΑΤΟΛΗ ΤΟΥ ΘΕΡΙΣΜΟΥ (Sunrise on the Reaping) trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=74fo5u9_6iw
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",THE HUNGER GAMES: Η ΑΝΑΤΟΛΗ ΤΟΥ ΘΕΡΙΣΜΟΥ (Sunrise on the Reaping) new trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=5h2uc7zk1s0
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΚΔΙΚΗΤΕΣ: Η ΑΝΟΔΟΣ ΤΟΥ DOCTOR DOOM (Avengers: Doomsday) CAPTAIN AMERICA (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=LQKenBkEVVA
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",DUNE: ΜΕΡΟΣ ΤΡΙΤΟ (Dune: Part Three) - trailer (greek subs)
