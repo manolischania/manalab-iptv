@@ -69,6 +69,8 @@ plugin://plugin.video.trailers/?action=play&video_id=NmKq2rPLVV0
 plugin://plugin.video.trailers/?action=play&video_id=J2um_5JPWY4
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΜΜΟΝΗ (Obsession) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=W8Ebn8H-9oo
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Ο ΑΣΤΕΡΙΣΜΟΣ ΤΟΥ ΣΚΥΛΟΥ (The Dog Stars) - official trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=g15nsZz1rX0
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",TO ΤΕΛΟΣ ΤΗΣ ΟΔΟΥ ΟΟΥΚ (The End of Oak Street) - teaser trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=E7ofnbd3qr4
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MINIONS & ΤΕΡΑΤΑ (Minions & Monsters) teaser trailer (μεταγλ)
@@ -79,6 +81,10 @@ plugin://plugin.video.trailers/?action=play&video_id=BvrIkaqPazk
 plugin://plugin.video.trailers/?action=play&video_id=R0_ptpElXks
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΞΕΧΑΣΜΕΝΟ ΝΗΣΙ (Forgotten Island) - trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=2Qwva6pVWks
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΤΟ ΣΟΪ ΤΗΣ ΣΥΜΦΟΡΑΣ (Focker-In-Law) - official trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=BB23huzxeyY
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",STREET FIGHTER - official trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=nH1_t-KMFPk
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",DIGGER - teaser trailer
 plugin://plugin.video.trailers/?action=play&video_id=YqsLbjoJmpA
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",THE HUNGER GAMES: Η ΑΝΑΤΟΛΗ ΤΟΥ ΘΕΡΙΣΜΟΥ (Sunrise on the Reaping) new trailer (greek subs)
