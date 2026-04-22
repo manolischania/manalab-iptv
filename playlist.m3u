@@ -3,8 +3,6 @@
 plugin://plugin.video.trailers/?action=play&video_id=5NCDxBcVJ4Q
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Ο ΔΙΑΒΟΛΟΣ ΦΟΡΑΕΙ PRADA 2 (The Devil Wears Prada 2) final trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=ef-aqXKaRcc
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MICHAEL - new trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=vT4ZHfB5MPc
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",IRON MAIDEN: BURNING AMBITION - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=8JUig7nFcWg
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΓΚΡΙΖΑ ΖΩΝΗ (In the Grey) - trailer (greek subs)
@@ -23,6 +21,8 @@ plugin://plugin.video.trailers/?action=play&video_id=zz-33ZvSpjI
 plugin://plugin.video.trailers/?action=play&video_id=F9QKHOb9zTk
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",BILLIE EILISH – HIT ME HARD AND SOFT: THE TOUR - official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=MH3KrpEHEVM
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",TOP GUN 40TH ANNIVERSARY - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=zxcbqRzOeEo
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΟΙΚΟΓΕΝΕΙΑ ΝΤΙΝΟΣΑΟΥΡΟΥΣ (The Dino Family) - trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=to3zwz6-P04
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",THAT TIME I GOT REINCARNATED AS A SLIME Η ΤΑΙΝΙΑ: ΤΑ ΔΑΚΡΥΑ ΤΗΣ ΓΑΛΑΖΙΑΣ ΘΑΛΑΣΣΑΣ trailer (gr subs)
@@ -41,6 +41,8 @@ plugin://plugin.video.trailers/?action=play&video_id=PNU3ZVg7p9c
 plugin://plugin.video.trailers/?action=play&video_id=hQnYQ4HLpRg
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΙ ΜΑΛΛΙΑΡΟΙ ΝΤΕΤΕΚΤΙΒ (The Sheep Detectives) official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=xUonESwgVGQ
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Ο ΨΑΡΟΜΟΥΡΜΟΥΡΑΣ (The Pout-Pout Fish) - trailer (μεταγλ)
+plugin://plugin.video.trailers/?action=play&video_id=1f3CYuFJONc
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SPIDER-MAN: ΚΑΙΝΟΥΡΓΙΑ ΜΕΡΑ (Spider-Man: Brand New Day) official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=5CiSDPqyOH8
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SCARY MOVIE - official trailer (greek subs)
@@ -73,6 +75,8 @@ plugin://plugin.video.trailers/?action=play&video_id=W8Ebn8H-9oo
 plugin://plugin.video.trailers/?action=play&video_id=g15nsZz1rX0
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",TO ΤΕΛΟΣ ΤΗΣ ΟΔΟΥ ΟΟΥΚ (The End of Oak Street) - teaser trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=E7ofnbd3qr4
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΜΑΓΙΚΑ ΦΙΛΤΡΑ 2 (Practical Magic 2) - teaser trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=VlWiYVo3PFw
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MINIONS & ΤΕΡΑΤΑ (Minions & Monsters) teaser trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=ngehd-Lqx6M
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MINIONS & ΤΕΡΑΤΑ (Minions & Monsters) teaser trailer (greek subs)
@@ -85,6 +89,8 @@ plugin://plugin.video.trailers/?action=play&video_id=2Qwva6pVWks
 plugin://plugin.video.trailers/?action=play&video_id=BB23huzxeyY
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",STREET FIGHTER - official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=nH1_t-KMFPk
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",WILD HORSE NINE - official trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=wKjkAFI6e0A
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",DIGGER - teaser trailer
 plugin://plugin.video.trailers/?action=play&video_id=YqsLbjoJmpA
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",THE HUNGER GAMES: Η ΑΝΑΤΟΛΗ ΤΟΥ ΘΕΡΙΣΜΟΥ (Sunrise on the Reaping) new trailer (greek subs)
@@ -93,6 +99,8 @@ plugin://plugin.video.trailers/?action=play&video_id=5h2uc7zk1s0
 plugin://plugin.video.trailers/?action=play&video_id=LQKenBkEVVA
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",DUNE: ΜΕΡΟΣ ΤΡΙΤΟ (Dune: Part Three) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=UEiuFf50ZwQ
+#EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",TOP GUN 40TH ANNIVERSARY – Official Trailer
+plugin://plugin.video.trailers/?action=play&video_id=XbSm8mKvkCs
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",Ο ΑΣΤΕΡΙΣΜΟΣ ΤΟΥ ΣΚΥΛΟΥ (The Dog Stars) – Official Trailer
 plugin://plugin.video.trailers/?action=play&video_id=2TzR5LmRWa0
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",STREET FIGHTER – Official Trailer
