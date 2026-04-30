@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Ο ΔΙΑΒΟΛΟΣ ΦΟΡΑΕΙ PRADA 2 (The Devil Wears Prada 2) final trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=ef-aqXKaRcc
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",TOP GUN 40TH ANNIVERSARY - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=zxcbqRzOeEo
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",HOKUM - new trailer (greek subs)
@@ -23,10 +21,6 @@ plugin://plugin.video.trailers/?action=play&video_id=hn-Yh1v31DM
 plugin://plugin.video.trailers/?action=play&video_id=MH3KrpEHEVM
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",THAT TIME I GOT REINCARNATED AS A SLIME Η ΤΑΙΝΙΑ: ΤΑ ΔΑΚΡΥΑ ΤΗΣ ΓΑΛΑΖΙΑΣ ΘΑΛΑΣΣΑΣ trailer (gr subs)
 plugin://plugin.video.trailers/?action=play&video_id=2o55eJwenIg
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",DOLLY - trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=6DaYzJdnzxY
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΤΡΙΧΕΣ ΚΑΤΣΑΡΕΣ (Curly Burly) - trailer (μεταγλ)
-plugin://plugin.video.trailers/?action=play&video_id=PNU3ZVg7p9c
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΙ ΜΑΛΛΙΑΡΟΙ ΝΤΕΤΕΚΤΙΒ (The Sheep Detectives) new trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=hQnYQ4HLpRg
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΙ ΜΑΛΛΙΑΡΟΙ ΝΤΕΤΕΚΤΙΒ (The Sheep Detectives) official trailer (greek subs)
@@ -99,6 +93,8 @@ plugin://plugin.video.trailers/?action=play&video_id=5h2uc7zk1s0
 plugin://plugin.video.trailers/?action=play&video_id=LQKenBkEVVA
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",DUNE: ΜΕΡΟΣ ΤΡΙΤΟ (Dune: Part Three) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=UEiuFf50ZwQ
+#EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",ΜΙΚΡΕΣ ΑΝΑΣΕΣ (Life In A Beat) – Official Trailer
+plugin://plugin.video.trailers/?action=play&video_id=f7SRwlNyemQ
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",ΤΟ ΗΜΕΡΟΛΟΓΙΟ ΤΗΣ ΒΕΡΙΤΙ (Verity) – Official Teaser Trailer
 plugin://plugin.video.trailers/?action=play&video_id=SgotCxJ6gak
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",ΟΙ ΚΥΡΙΑΡΧΟΙ ΤΟΥ ΣΥΜΠΑΝΤΟΣ (Masters Of The Universe) – International Trailer
