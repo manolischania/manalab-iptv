@@ -29,6 +29,8 @@ plugin://plugin.video.trailers/?action=play&video_id=xUonESwgVGQ
 plugin://plugin.video.trailers/?action=play&video_id=1f3CYuFJONc
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΤΟ ΤΡΑΓΟΥΔΙ ΤΗΣ ΜΙΚΡΗΣ ΦΑΛΑΙΝΑΣ (The Last Whale Singer) - trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=Jq2b_fZPSBo
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΤΕΛΕΙΩΜΕΝΟΣ (Wasteman) - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=wije4xsSi1w
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SPIDER-MAN: ΚΑΙΝΟΥΡΓΙΑ ΜΕΡΑ (Spider-Man: Brand New Day) official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=5CiSDPqyOH8
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SCARY MOVIE - official trailer (greek subs)
