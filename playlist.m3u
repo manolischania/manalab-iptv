@@ -9,10 +9,10 @@ plugin://plugin.video.trailers/?action=play&video_id=F9QKHOb9zTk
 plugin://plugin.video.trailers/?action=play&video_id=8JUig7nFcWg
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΓΚΡΙΖΑ ΖΩΝΗ (In the Grey) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=2_R-5vssHoQ
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΔΥΣΣΕΙΑ (The Odyssey) - teaser trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=oQWxq36B8Ns
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",STAR WARS: THE MANDALORIAN AND GROGU - new official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=rWv9vrDR1Ow
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΔΥΣΣΕΙΑ (The Odyssey) - official trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=SFGjqfjb1rM
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",BACKROOMS - official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=zz-33ZvSpjI
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΙ ΚΥΡΙΑΡΧΟΙ ΤΟΥ ΣΥΜΠΑΝΤΟΣ (Masters of the Universe) - International trailer (greek subs)
@@ -31,6 +31,10 @@ plugin://plugin.video.trailers/?action=play&video_id=1f3CYuFJONc
 plugin://plugin.video.trailers/?action=play&video_id=Jq2b_fZPSBo
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΤΕΛΕΙΩΜΕΝΟΣ (Wasteman) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=wije4xsSi1w
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΟΜΗΡΙΑ (Dead Man's Wire) - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=ovlqzRHlqxU
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΑΡΚΟΥΔΟΤΡΥΠΑ - official trailer
+plugin://plugin.video.trailers/?action=play&video_id=eY4X9g0MOps
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SPIDER-MAN: ΚΑΙΝΟΥΡΓΙΑ ΜΕΡΑ (Spider-Man: Brand New Day) official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=5CiSDPqyOH8
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SCARY MOVIE - official trailer (greek subs)
@@ -95,6 +99,8 @@ plugin://plugin.video.trailers/?action=play&video_id=5h2uc7zk1s0
 plugin://plugin.video.trailers/?action=play&video_id=LQKenBkEVVA
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",DUNE: ΜΕΡΟΣ ΤΡΙΤΟ (Dune: Part Three) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=UEiuFf50ZwQ
+#EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",RESIDENT EVIL – Teaser Trailer
+plugin://plugin.video.trailers/?action=play&video_id=zaych-k9vaU
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",ΜΙΚΡΕΣ ΑΝΑΣΕΣ (Life In A Beat) – Official Trailer
 plugin://plugin.video.trailers/?action=play&video_id=f7SRwlNyemQ
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",ΤΟ ΗΜΕΡΟΛΟΓΙΟ ΤΗΣ ΒΕΡΙΤΙ (Verity) – Official Teaser Trailer
