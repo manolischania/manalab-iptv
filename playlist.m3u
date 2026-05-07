@@ -51,6 +51,8 @@ plugin://plugin.video.trailers/?action=play&video_id=lmFowEGHrHw
 plugin://plugin.video.trailers/?action=play&video_id=zadLlG51LIM
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΘΑΝΑΣΙΜΑ ΠΛΟΥΣΙΟΣ (How to Make a Killing) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=Kmg4Pj_5-28
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΛΛΑΔΑ 3.0 - official trailer
+plugin://plugin.video.trailers/?action=play&video_id=eVFjzEVhdls
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΒΑΪΑΝΑ (Vaiana) - official trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=XMiCod6NLww
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",TOY STORY 5 - official trailer (μεταγλ)
@@ -87,6 +89,8 @@ plugin://plugin.video.trailers/?action=play&video_id=2Qwva6pVWks
 plugin://plugin.video.trailers/?action=play&video_id=BB23huzxeyY
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΤΟ ΗΜΕΡΟΛΟΓΙΟ ΤΗΣ ΒΕΡΙΤΙ (Verity) - teaser trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=3mzpQsExtu8
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",RESIDENT EVIL - teaser trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=AWt_gpvPVNk
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",STREET FIGHTER - official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=nH1_t-KMFPk
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",WILD HORSE NINE - official trailer (greek subs)
@@ -99,6 +103,8 @@ plugin://plugin.video.trailers/?action=play&video_id=5h2uc7zk1s0
 plugin://plugin.video.trailers/?action=play&video_id=LQKenBkEVVA
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",DUNE: ΜΕΡΟΣ ΤΡΙΤΟ (Dune: Part Three) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=UEiuFf50ZwQ
+#EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",COYOTE VS ACME – Official Trailer
+plugin://plugin.video.trailers/?action=play&video_id=iS0DEHvrrNs
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",RESIDENT EVIL – Teaser Trailer
 plugin://plugin.video.trailers/?action=play&video_id=zaych-k9vaU
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",ΜΙΚΡΕΣ ΑΝΑΣΕΣ (Life In A Beat) – Official Trailer
