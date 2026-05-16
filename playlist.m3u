@@ -39,6 +39,8 @@ plugin://plugin.video.trailers/?action=play&video_id=lmFowEGHrHw
 plugin://plugin.video.trailers/?action=play&video_id=hByX0wkkb4A
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SUPERGIRL - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=zadLlG51LIM
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΙ ΚΡΙΣΤΟΦΕΡ (The Christophers) - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=jnS0rWonExk
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΘΑΝΑΣΙΜΑ ΠΛΟΥΣΙΟΣ (How to Make a Killing) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=Kmg4Pj_5-28
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΛΛΑΔΑ 3.0 - official trailer
@@ -61,6 +63,8 @@ plugin://plugin.video.trailers/?action=play&video_id=IP2HN3krivw
 plugin://plugin.video.trailers/?action=play&video_id=W8Ebn8H-9oo
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΜΕΓΑΛΗ ΣΦΑΓΗ ΤΩΝ Β' ΚΑΠΗ ΑΛΙΜΟΥ - trailer
 plugin://plugin.video.trailers/?action=play&video_id=y07dxeGUpi4
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΓΙΑ ΜΙΑ ΝΥΧΤΑ ΜΟΝΟ (One Night Only) - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=_wilvSwvIJs
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Ο ΑΣΤΕΡΙΣΜΟΣ ΤΟΥ ΣΚΥΛΟΥ (The Dog Stars) - official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=g15nsZz1rX0
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",TO ΤΕΛΟΣ ΤΗΣ ΟΔΟΥ ΟΟΥΚ (The End of Oak Street) - teaser trailer (greek subs)
