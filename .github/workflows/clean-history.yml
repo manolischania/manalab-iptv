@@ -1,0 +1,19 @@
+name: Clean Old Workflow Runs
+
+on:
+  schedule:
+    # Τρέχει κάθε Κυριακή στις 00:00
+    - cron: '0 0 * * 0'
+  workflow_dispatch: # Σου επιτρέπει να το τρέξεις και χειροκίνητα όποτε θες
+
+jobs:
+  del_runs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete old runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          retain_days: 7 # Κρατάει το ιστορικό των τελευταίων 7 ημερών
+          keep_minimum_runs: 5 # Κρατάει τουλάχιστον τα 5 τελευταία runs όσα χρόνια κι αν περάσουν
