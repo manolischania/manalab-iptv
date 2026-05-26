@@ -1,6 +1,6 @@
 #EXTM3U
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",2026 TXT MOA CON IN JAPAN: LIVE VIEWING @ Village Cinemas
-plugin://plugin.video.trailers/?action=play&video_id=kFcrH-Ynb7c
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SCARY MOVIE - official trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=_RlO2I9YYGA
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SPIDER-MAN: ΚΑΙΝΟΥΡΓΙΑ ΜΕΡΑ (Spider-Man: Brand New Day) official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=5CiSDPqyOH8
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΙ ΚΥΡΙΑΡΧΟΙ ΤΟΥ ΣΥΜΠΑΝΤΟΣ (Masters of the Universe) - International trailer (greek subs)
@@ -17,10 +17,10 @@ plugin://plugin.video.trailers/?action=play&video_id=zadLlG51LIM
 plugin://plugin.video.trailers/?action=play&video_id=AXWeyhQya8Q
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΒΑΪΑΝΑ (Vaiana) - official trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=XMiCod6NLww
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΛΛΑΔΑ 3.0 - official trailer
+plugin://plugin.video.trailers/?action=play&video_id=eVFjzEVhdls
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΕΤΥΜΗΓΟΡΙΑ (Re-creation) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=pAGuTtRXgmg
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SCARY MOVIE - official trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=_RlO2I9YYGA
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",BEAST - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=lZrc57A4J14
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",INSIDIOUS: ΕΞΩ ΑΠΟ ΤΟ ΑΠΩΤΕΡΟ (Insidious: Out of the Further) - official trailer (greek subs)
@@ -33,8 +33,6 @@ plugin://plugin.video.trailers/?action=play&video_id=hByX0wkkb4A
 plugin://plugin.video.trailers/?action=play&video_id=jnS0rWonExk
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΘΑΝΑΣΙΜΑ ΠΛΟΥΣΙΟΣ (How to Make a Killing) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=Kmg4Pj_5-28
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΛΛΑΔΑ 3.0 - official trailer
-plugin://plugin.video.trailers/?action=play&video_id=eVFjzEVhdls
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΖΟΙ ΚΑΙ ΤΑ ΖΩΑΚΙΑ ΤΗΣ (Evolution) - trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=p6CQZATxAgo
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",TOY STORY 5 - official trailer (μεταγλ)
