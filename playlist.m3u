@@ -9,8 +9,6 @@ plugin://plugin.video.trailers/?action=play&video_id=hn-Yh1v31DM
 plugin://plugin.video.trailers/?action=play&video_id=JZ-mIqcXS-E
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΔΥΣΣΕΙΑ (The Odyssey) - official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=SFGjqfjb1rM
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",BACKROOMS - official trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=zz-33ZvSpjI
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SUPERGIRL - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=zadLlG51LIM
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",YU-GI-OH! Η ΣΚΟΤΕΙΝΗ ΠΛΕΥΡΑ ΤΩΝ ΔΙΑΣΤΑΣΕΩΝ (Yu-Gi-Oh!: The Dark Side of Dimensions) trailer (μεταγλ)
@@ -395,7 +393,7 @@ plugin://plugin.video.trailers/?action=play&video_id=A5UnObfgdVI
 plugin://plugin.video.trailers/?action=play&video_id=NPm1em9uhr0
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",GHOSTBUSTERS: Η ΑΥΤΟΚΡΑΤΟΡΙΑ ΤΟΥ ΠΑΓΟΥ (Ghostbusters: Frozen Empire) – Official Trailer
 plugin://plugin.video.trailers/?action=play&video_id=sUw01b0C_XA
-#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",HER PRIVATE HELL - Teaser Trailer | To καλοκαίρι στους κινηματογράφους από την TFG
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Η ΔΙΚΗ ΤΗΣ ΚΟΛΑΣΗ (HER PRIVATE HELL) - Teaser Trailer | To καλοκαίρι στους κιν/φους από την TFG
 plugin://plugin.video.trailers/?action=play&video_id=Gcx5QgoHzAg
 #EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",MOTOR CITY - Teaser Trailer | To καλοκαίρι στους κινηματογράφους από την TFG
 plugin://plugin.video.trailers/?action=play&video_id=_EL7b1wyzAI
