@@ -1,24 +1,26 @@
 #EXTM3U
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΗΜΕΡΑ ΑΠΟΚΑΛΥΨΗΣ (Disclosure Day) new trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=JZ-mIqcXS-E
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΜΜΟΝΗ (Obsession) - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=W8Ebn8H-9oo
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",BTS WORLD TOUR ARIRANG IN BUSAN: LIVE VIEWING @ Village Cinemas
 plugin://plugin.video.trailers/?action=play&video_id=cJin4G85tKQ
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SPIDER-MAN: ΚΑΙΝΟΥΡΓΙΑ ΜΕΡΑ (Spider-Man: Brand New Day) official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=5CiSDPqyOH8
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΟΔΥΣΣΕΙΑ (The Odyssey) - official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=SFGjqfjb1rM
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Ο ΘΑΝΑΤΟΣ ΤΟΥ ROBIN HOOD (The Death of Robin Hood) trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=J2um_5JPWY4
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",SUPERGIRL - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=zadLlG51LIM
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΒΑΪΑΝΑ (Vaiana) - official trailer (μεταγλ)
 plugin://plugin.video.trailers/?action=play&video_id=XMiCod6NLww
-#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΕΜΜΟΝΗ (Obsession) - trailer (greek subs)
-plugin://plugin.video.trailers/?action=play&video_id=W8Ebn8H-9oo
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Ο ΘΑΝΑΤΟΣ ΤΟΥ ROBIN HOOD (The Death of Robin Hood) trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=J2um_5JPWY4
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",INSIDIOUS: ΕΞΩ ΑΠΟ ΤΟ ΑΠΩΤΕΡΟ (Insidious: Out of the Further) - official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=M0G0emw_KD4
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",FUZE - official trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=lmFowEGHrHw
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",LEVITICUS - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=vQE7So8jP_E
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΔΙΚΗ ΤΗΣ ΚΟΛΑΣΗ (Her Private Hell) - teaser trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=XjNbJR9hOok
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",ΠΩΣ ΝΑ ΛΗΣΤΕΨΕΙΣ ΜΙΑ ΤΡΑΠΕΖΑ (How to Rob a Bank) official trailer (greek subs)
@@ -33,6 +35,8 @@ plugin://plugin.video.trailers/?action=play&video_id=2GN_bEhgj70
 plugin://plugin.video.trailers/?action=play&video_id=R_1HVDUi4bk
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Asterix and the Kingdom of Nubia (Asterix: The Kingdom of Nubia) teaser trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=NmKq2rPLVV0
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",72 ΩΡΕΣ ΠΡΟΘΕΣΜΙΑ (Pressure) - trailer (greek subs)
+plugin://plugin.video.trailers/?action=play&video_id=c2nvvOLNuFg
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",MOTOR CITY - teaser trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=AodiQcC0Uzo
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",EVIL DEAD BURN - official trailer (greek subs)
@@ -77,6 +81,10 @@ plugin://plugin.video.trailers/?action=play&video_id=5h2uc7zk1s0
 plugin://plugin.video.trailers/?action=play&video_id=LQKenBkEVVA
 #EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",DUNE: ΜΕΡΟΣ ΤΡΙΤΟ (Dune: Part Three) - trailer (greek subs)
 plugin://plugin.video.trailers/?action=play&video_id=UEiuFf50ZwQ
+#EXTINF:-1 group-title="Village Cinemas Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png",Η ΕΠΟΧΗ ΤΩΝ ΠΑΓΕΤΩΝΩΝ 6: ΣΗΜΕΙΟ ΒΡΑΣΜΟΥ (Ice Age: Boiling Point) - teaser trailer
+plugin://plugin.video.trailers/?action=play&video_id=OlsBOwaHLIo
+#EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",H Εποχή Των Παγετώνων 6: Σημείο Βρασμού – Teaser Trailer
+plugin://plugin.video.trailers/?action=play&video_id=gCJA4Zb-jns
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",ΠΩΣ ΝΑ ΛΗΣΤΕΨΕΙΣ ΜΙΑ ΤΡΑΠΕΖΑ (How To Rob A Bank) – Official Trailer
 plugin://plugin.video.trailers/?action=play&video_id=HcIZAnp1R1c
 #EXTINF:-1 group-title="Feelgood Ent. Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png",EVIL DEAD BURN – Official Trailer
@@ -385,7 +393,7 @@ plugin://plugin.video.trailers/?action=play&video_id=NPm1em9uhr0
 plugin://plugin.video.trailers/?action=play&video_id=sUw01b0C_XA
 #EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",LEVITICUS - Trailer | 18 Ιουνίου μόνο στους κινηματογράφους από την TFG
 plugin://plugin.video.trailers/?action=play&video_id=ni9NiT0yV5o
-#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",VICTORIAN PSYCHO - Teaser Trailer | To καλοκαίρι στους κιν/φους από την TFG
+#EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",VICTORIAN PSYCHO - Teaser Trailer | To φθινόπωρο μόνο στους κινηματογράφους από την TFG
 plugin://plugin.video.trailers/?action=play&video_id=qodvqg8R240
 #EXTINF:-1 group-title="Odeon Cinema Trailers" tvg-logo="https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png",Η ΔΙΚΗ ΤΗΣ ΚΟΛΑΣΗ (HER PRIVATE HELL) - Teaser Trailer | To καλοκαίρι στους κιν/φους από την TFG
 plugin://plugin.video.trailers/?action=play&video_id=Gcx5QgoHzAg
