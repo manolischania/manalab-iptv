@@ -1,4 +1,43 @@
-import os
+name: Update YouTube Playlist
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Τρέχει κάθε μέρα τα μεσάνυχτα
+  workflow_dispatch: # Επιτρέπει χειροκίνητη εκτέλεση
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    # ── Διόρθωση Node.js deprecation warning ─────────────────────────────────
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v5   # Node.js 24 compatible
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Generate JSON Playlist (YouTube Data API v3)
+      shell: python
+      env:
+        YT_API_KEY: ${{ secrets.YT_API_KEY }}
+      run: |
+        import os
         import json
         import requests
         import sys
@@ -10,6 +49,8 @@ import os
 
         if not API_KEY:
             print("ERROR: YT_API_KEY secret is not set.")
+            print("Go to: Repository → Settings → Secrets and variables → Actions → New repository secret")
+            print("Name: YT_API_KEY   Value: <your Google API key>")
             sys.exit(1)
 
         playlists = [
@@ -30,18 +71,29 @@ import os
             }
         ]
 
-        banned_phrases = ["[private video]", "[deleted video]", "private video", "deleted video", "video unavailable"]
+        banned_phrases = [
+            "[private video]", "[deleted video]",
+            "private video",   "deleted video",
+            "video unavailable"
+        ]
 
         # ── Helpers ────────────────────────────────────────────────────────────
 
         def best_thumbnail(thumbnails_dict, video_id):
+            """
+            Επιλέγει το καλύτερο διαθέσιμο thumbnail από το API response.
+            Fallback: public YouTube CDN URL.
+            """
             for quality in ("maxres", "standard", "high", "medium", "default"):
                 url = thumbnails_dict.get(quality, {}).get("url")
-                if url: return url
+                if url:
+                    return url
             return f"https://img.youtube.com/vi/{video_id}/maxresdefault.jpg"
 
         def parse_iso_duration(iso_str):
-            """Μετατρέπει το YouTube Duration (π.χ. PT2M30S) σε δευτερόλεπτα για το Kodi"""
+            """
+            Μετατρέπει το YouTube Duration (π.χ. PT2M30S) σε δευτερόλεπτα για το Kodi
+            """
             parsed_time = 0
             match = re.search(r'PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?', iso_str)
             if match:
@@ -52,31 +104,62 @@ import os
             return parsed_time
 
         def get_playlist_video_ids(playlist_id):
+            """
+            Επιστρέφει λίστα video IDs από ένα YouTube playlist.
+            """
             video_ids  = []
             page_token = None
+
             while True:
-                params = {"part": "contentDetails", "playlistId": playlist_id, "maxResults": 50, "key": API_KEY}
-                if page_token: params["pageToken"] = page_token
+                params = {
+                    "part":       "contentDetails",
+                    "playlistId": playlist_id,
+                    "maxResults": 50,
+                    "key":        API_KEY,
+                }
+                if page_token:
+                    params["pageToken"] = page_token
+
                 resp = requests.get(f"{BASE_URL}/playlistItems", params=params, timeout=15)
                 data = resp.json()
-                if "error" in data: break
+
+                if "error" in data:
+                    msg = data["error"].get("message", "unknown error")
+                    print(f"  API error (playlistItems): {msg}")
+                    break
+
                 for item in data.get("items", []):
                     vid = item.get("contentDetails", {}).get("videoId")
-                    if vid: video_ids.append(vid)
+                    if vid:
+                        video_ids.append(vid)
+
                 page_token = data.get("nextPageToken")
-                if not page_token: break
+                if not page_token:
+                    break
+
             return video_ids
 
         def get_video_details_batch(video_ids):
-            if not video_ids: return {}
-            # Ζητάμε πλέον ΚΑΙ contentDetails (διάρκεια) ΚΑΙ statistics (likes)
+            """
+            Επιστρέφει dict {video_id: {title, description, fanart, duration, likes}}
+            """
+            if not video_ids:
+                return {}
+
             params = {
                 "part": "snippet,contentDetails,statistics",
                 "id":   ",".join(video_ids),
                 "key":  API_KEY,
             }
+
             resp = requests.get(f"{BASE_URL}/videos", params=params, timeout=15)
             data = resp.json()
+
+            if "error" in data:
+                msg = data["error"].get("message", "unknown error")
+                print(f"  API error (videos): {msg}")
+                return {}
+
             details = {}
             for item in data.get("items", []):
                 vid     = item["id"]
@@ -91,29 +174,40 @@ import os
                     "duration":    parse_iso_duration(content.get("duration", "")),
                     "likes":       stats.get("likeCount", "0")
                 }
+
             return details
 
         # ── Main loop ──────────────────────────────────────────────────────────
 
-        seen_ids = set()
-        output_items = []
+        seen_ids        = set()
+        output_items    = []
+        total_api_calls = 0
 
         for pl in playlists:
             print(f"\n── {pl['group']} ──")
+
             all_ids = get_playlist_video_ids(pl["id"])
+            total_api_calls += max(1, -(-len(all_ids) // 50))
+            print(f"  Playlist IDs fetched: {len(all_ids)}")
+
             new_ids = [vid for vid in all_ids if vid not in seen_ids]
             seen_ids.update(new_ids)
+            print(f"  New (unique) IDs: {len(new_ids)}")
 
             for batch_start in range(0, len(new_ids), 50):
                 batch   = new_ids[batch_start : batch_start + 50]
                 details = get_video_details_batch(batch)
+                total_api_calls += 1
 
                 for vid in batch:
-                    if vid not in details: continue
+                    if vid not in details:
+                        continue
+
                     d     = details[vid]
                     title = d["title"]
 
-                    if any(phrase in title.lower() for phrase in banned_phrases): continue
+                    if any(phrase in title.lower() for phrase in banned_phrases):
+                        continue
 
                     plot = d["description"] if d["description"] else title
 
@@ -128,6 +222,22 @@ import os
                         "likes":    d["likes"]
                     })
 
+            print(f"  Items added: {len([x for x in output_items if x['group'] == pl['group']])}")
+
+        # ── Output ─────────────────────────────────────────────────────────────
+        print(f"\n✓ Total items  : {len(output_items)}")
+        print(f"✓ API calls    : ~{total_api_calls} units (quota: 10,000/day)")
+
         with open("trailers.json", "w", encoding="utf-8") as f:
             json.dump(output_items, f, ensure_ascii=False, indent=4)
+
         print("✓ trailers.json written successfully.")
+
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name "GitHub Action"
+        git config --global user.email "action@github.com"
+        git add trailers.json
+        git diff --quiet && git diff --staged --quiet || \
+          (git commit -m "Update JSON playlist with duration and likes" && \
+           (git push || (git pull --rebase origin main && git push)))
