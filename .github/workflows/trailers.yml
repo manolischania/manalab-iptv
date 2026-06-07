@@ -39,7 +39,7 @@ jobs:
         import sys
 
         # ── Config ─────────────────────────────────────────────────────────────
-        API_KEY  = os.environ.get("AIzaSyCHpYAOaIZS3w6y9CuEReZhocr4cb8qiw8", "").strip()
+        API_KEY  = os.environ.get("AAIzaSyCHpYAOaIZS3w6y9CuEReZhocr4cb8qiw8", "").strip()
         BASE_URL = "https://www.googleapis.com/youtube/v3"
 
         if not API_KEY:
