@@ -23,86 +23,207 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Install yt-dlp
+    - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install yt-dlp
+        pip install requests
 
-    - name: Generate JSON Playlist (Smart Links)
+    - name: Generate JSON Playlist (YouTube Data API v3)
       shell: python
+      env:
+        YT_API_KEY: ${{ secrets.YT_API_KEY }}
       run: |
-        import yt_dlp
+        import os
         import json
+        import requests
+        import sys
+
+        # ── Config ─────────────────────────────────────────────────────────────
+        API_KEY  = os.environ.get("AIzaSyCHpYAOaIZS3w6y9CuEReZhocr4cb8qiw8", "").strip()
+        BASE_URL = "https://www.googleapis.com/youtube/v3"
+
+        if not API_KEY:
+            print("ERROR: YT_API_KEY secret is not set. See README for setup instructions.")
+            sys.exit(1)
 
         playlists = [
             {
-                "id": "PL2rB3_wxnzkSPdWlqnGO3FGmg8HObgy20", 
-                "group": "Village Cinemas Trailers", 
-                "logo": "https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png"
+                "id":    "PL2rB3_wxnzkSPdWlqnGO3FGmg8HObgy20",
+                "group": "Village Cinemas Trailers",
+                "logo":  "https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/village.png"
             },
             {
-                "id": "PLEq9lv6PlXlLMyI1cxwkza0r8kcSxVxz_", 
-                "group": "Feelgood Ent. Trailers", 
-                "logo": "https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png"
+                "id":    "PLEq9lv6PlXlLMyI1cxwkza0r8kcSxVxz_",
+                "group": "Feelgood Ent. Trailers",
+                "logo":  "https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/feelgood.png"
             },
             {
-                "id": "PL7ka5nNx0eiI0axRBawYQiM69e6UChhLi", 
-                "group": "Odeon Cinema Trailers", 
-                "logo": "https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png"
+                "id":    "PL7ka5nNx0eiI0axRBawYQiM69e6UChhLi",
+                "group": "Odeon Cinema Trailers",
+                "logo":  "https://raw.githubusercontent.com/manolischania/manalab-iptv/refs/heads/main/logo/odeon.png"
             }
         ]
 
-        seen_ids = set()
-        banned_phrases = ["[private video]", "[deleted video]", "private video", "deleted video", "video unavailable"]
-        
-        ydl_opts = {'quiet': True, 'extract_flat': False, 'ignoreerrors': True}
-        
+        banned_phrases = [
+            "[private video]", "[deleted video]",
+            "private video",   "deleted video",
+            "video unavailable"
+        ]
+
+        # ── Helpers ────────────────────────────────────────────────────────────
+
+        def best_thumbnail(thumbnails_dict, video_id):
+            """
+            Επιλέγει το καλύτερο διαθέσιμο thumbnail από το API response.
+            Fallback: public YouTube CDN URL (πάντα διαθέσιμο).
+            """
+            for quality in ("maxres", "standard", "high", "medium", "default"):
+                url = thumbnails_dict.get(quality, {}).get("url")
+                if url:
+                    return url
+            return f"https://img.youtube.com/vi/{video_id}/maxresdefault.jpg"
+
+
+        def get_playlist_video_ids(playlist_id):
+            """
+            Επιστρέφει λίστα video IDs από ένα YouTube playlist.
+            Κάνει pagination αυτόματα (50 items / σελίδα).
+            Quota cost: 1 unit / σελίδα  →  ~3 units για 130 videos
+            """
+            video_ids  = []
+            page_token = None
+
+            while True:
+                params = {
+                    "part":       "contentDetails",
+                    "playlistId": playlist_id,
+                    "maxResults": 50,
+                    "key":        API_KEY,
+                }
+                if page_token:
+                    params["pageToken"] = page_token
+
+                resp = requests.get(f"{BASE_URL}/playlistItems", params=params, timeout=15)
+                data = resp.json()
+
+                if "error" in data:
+                    msg = data["error"].get("message", "unknown error")
+                    print(f"  API error (playlistItems): {msg}")
+                    break
+
+                for item in data.get("items", []):
+                    vid = item.get("contentDetails", {}).get("videoId")
+                    if vid:
+                        video_ids.append(vid)
+
+                page_token = data.get("nextPageToken")
+                if not page_token:
+                    break
+
+            return video_ids
+
+
+        def get_video_details_batch(video_ids):
+            """
+            Επιστρέφει dict {video_id: {title, description, fanart}}
+            για έως 50 videos ανά κλήση (batch request).
+            Quota cost: 1 unit / batch  →  ~8 units για 400 videos
+            """
+            if not video_ids:
+                return {}
+
+            params = {
+                "part": "snippet",
+                "id":   ",".join(video_ids),
+                "key":  API_KEY,
+            }
+
+            resp = requests.get(f"{BASE_URL}/videos", params=params, timeout=15)
+            data = resp.json()
+
+            if "error" in data:
+                msg = data["error"].get("message", "unknown error")
+                print(f"  API error (videos): {msg}")
+                return {}
+
+            details = {}
+            for item in data.get("items", []):
+                vid     = item["id"]
+                snippet = item.get("snippet", {})
+                details[vid] = {
+                    "title":       snippet.get("title", "No Title"),
+                    "description": snippet.get("description", "").strip(),
+                    "fanart":      best_thumbnail(snippet.get("thumbnails", {}), vid),
+                }
+
+            return details
+
+
+        # ── Main loop ──────────────────────────────────────────────────────────
+
+        seen_ids     = set()
         output_items = []
+        total_api_calls = 0
 
-        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            for pl in playlists:
-                print(f"Processing: {pl['group']}...")
-                url = f"https://www.youtube.com/playlist?list={pl['id']}"
-                try:
-                    result = ydl.extract_info(url, download=False)
-                    if 'entries' in result:
-                        for video in result['entries']:
-                            if not video: continue
-                            
-                            vid = video.get('id')
-                            title = video.get('title', 'No Title')
-                            
-                            if not vid or vid in seen_ids: continue
-                            
-                            title_lower = title.lower().strip()
-                            if any(phrase in title_lower for phrase in banned_phrases):
-                                continue
+        for pl in playlists:
+            print(f"\n── {pl['group']} ──")
 
-                            seen_ids.add(vid)
-                            
-                            thumbnails = video.get('thumbnails', [])
-                            fanart = thumbnails[-1]['url'] if thumbnails else ""
-                            
-                            plot = video.get('description') or title
+            # Step 1: Playlist IDs (με pagination)
+            all_ids = get_playlist_video_ids(pl["id"])
+            total_api_calls += max(1, -(-len(all_ids) // 50))  # ceil division
+            print(f"  Playlist IDs fetched: {len(all_ids)}")
 
-                            output_items.append({
-                                "video_id": vid,
-                                "title": title,
-                                "group": pl["group"],
-                                "logo": pl["logo"],
-                                "fanart": fanart,
-                                "plot": plot
-                            })
-                            
-                except Exception as e:
-                    print(f"Error processing list {pl['group']}: {e}")
+            # Φιλτράρουμε duplicates από άλλες playlists
+            new_ids = [vid for vid in all_ids if vid not in seen_ids]
+            seen_ids.update(new_ids)
+            print(f"  New (unique) IDs: {len(new_ids)}")
+
+            # Step 2: Video details σε batches των 50
+            for batch_start in range(0, len(new_ids), 50):
+                batch    = new_ids[batch_start : batch_start + 50]
+                details  = get_video_details_batch(batch)
+                total_api_calls += 1
+
+                for vid in batch:
+                    if vid not in details:
+                        # Video δεν επέστρεψε (private/deleted) → skip
+                        continue
+
+                    d     = details[vid]
+                    title = d["title"]
+
+                    # Φιλτράρουμε private/deleted
+                    if any(phrase in title.lower() for phrase in banned_phrases):
+                        continue
+
+                    # Fallback: αν δεν υπάρχει description, χρησιμοποιούμε το title
+                    plot = d["description"] if d["description"] else title
+
+                    output_items.append({
+                        "video_id": vid,
+                        "title":    title,
+                        "group":    pl["group"],
+                        "logo":     pl["logo"],
+                        "fanart":   d["fanart"],
+                        "plot":     plot,
+                    })
+
+            print(f"  Items added: {len([x for x in output_items if x['group'] == pl['group']])}")
+
+        # ── Output ─────────────────────────────────────────────────────────────
+        print(f"\n✓ Total items  : {len(output_items)}")
+        print(f"✓ API calls    : ~{total_api_calls} units (quota: 10,000/day)")
 
         with open("trailers.json", "w", encoding="utf-8") as f:
             json.dump(output_items, f, ensure_ascii=False, indent=4)
+
+        print("✓ trailers.json written successfully.")
 
     - name: Commit and Push changes
       run: |
         git config --global user.name "GitHub Action"
         git config --global user.email "action@github.com"
         git add trailers.json
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update JSON playlist" && (git push || (git pull --rebase origin main && git push)))
+        git diff --quiet && git diff --staged --quiet || \
+          (git commit -m "Update JSON playlist" && \
+           (git push || (git pull --rebase origin main && git push)))
