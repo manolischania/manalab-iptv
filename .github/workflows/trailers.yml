@@ -55,7 +55,7 @@ jobs:
         seen_ids = set()
         banned_phrases = ["[private video]", "[deleted video]", "private video", "deleted video", "video unavailable"]
         
-        ydl_opts = {'quiet': True, 'extract_flat': 'in_playlist', 'ignoreerrors': True}
+        ydl_opts = {'quiet': True, 'extract_flat': False, 'ignoreerrors': True}
         
         output_items = []
 
