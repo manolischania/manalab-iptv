@@ -12,6 +12,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    # ── Διόρθωση Node.js deprecation warning ─────────────────────────────────
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -19,7 +23,7 @@ jobs:
         fetch-depth: 0
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5   # ← v5 (Node.js 24 compatible)
       with:
         python-version: '3.x'
 
@@ -39,11 +43,13 @@ jobs:
         import sys
 
         # ── Config ─────────────────────────────────────────────────────────────
-        API_KEY  = os.environ.get("AAIzaSyCHpYAOaIZS3w6y9CuEReZhocr4cb8qiw8", "").strip()
+        API_KEY  = os.environ.get("AIzaSyCHpYAOaIZS3w6y9CuEReZhocr4cb8qiw8", "").strip()
         BASE_URL = "https://www.googleapis.com/youtube/v3"
 
         if not API_KEY:
-            print("ERROR: YT_API_KEY secret is not set. See README for setup instructions.")
+            print("ERROR: YT_API_KEY secret is not set.")
+            print("Go to: Repository → Settings → Secrets and variables → Actions → New repository secret")
+            print("Name: YT_API_KEY   Value: <your Google API key>")
             sys.exit(1)
 
         playlists = [
@@ -161,8 +167,8 @@ jobs:
 
         # ── Main loop ──────────────────────────────────────────────────────────
 
-        seen_ids     = set()
-        output_items = []
+        seen_ids        = set()
+        output_items    = []
         total_api_calls = 0
 
         for pl in playlists:
@@ -180,8 +186,8 @@ jobs:
 
             # Step 2: Video details σε batches των 50
             for batch_start in range(0, len(new_ids), 50):
-                batch    = new_ids[batch_start : batch_start + 50]
-                details  = get_video_details_batch(batch)
+                batch   = new_ids[batch_start : batch_start + 50]
+                details = get_video_details_batch(batch)
                 total_api_calls += 1
 
                 for vid in batch:
