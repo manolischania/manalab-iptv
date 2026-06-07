@@ -1,38 +1,8 @@
-name: Update YouTube Playlist
-
-on:
-  schedule:
-    - cron: '0 0 * * *' # Τρέχει κάθε μέρα τα μεσάνυχτα
-  workflow_dispatch: # Επιτρέπει χειροκίνητη εκτέλεση
-
-permissions:
-  contents: write
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
-
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'
-
-    - name: Install yt-dlp
-      run: |
-        python -m pip install --upgrade pip
-        pip install yt-dlp
-
-    - name: Generate M3U Playlist (Smart Links)
+- name: Generate JSON Playlist (Smart Links)
       shell: python
       run: |
         import yt_dlp
-        import sys
+        import json
 
         playlists = [
             {
@@ -54,47 +24,52 @@ jobs:
 
         seen_ids = set()
         banned_phrases = ["[private video]", "[deleted video]", "private video", "deleted video", "video unavailable"]
-        ydl_opts = {'quiet': True, 'extract_flat': True, 'ignoreerrors': True}
+        
+        # Προσθήκη 'extract_flat': 'in_playlist' για να φέρνει όλα τα βίντεο της λίστας με ασφάλεια
+        ydl_opts = {'quiet': True, 'extract_flat': 'in_playlist', 'ignoreerrors': True}
+        
+        output_items = []
 
-        with open("playlist.m3u", "w", encoding="utf-8") as f:
-            f.write("#EXTM3U\n")
-            
-            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-                for pl in playlists:
-                    print(f"Processing: {pl['group']}...")
-                    url = f"https://www.youtube.com/playlist?list={pl['id']}"
-                    try:
-                        result = ydl.extract_info(url, download=False)
-                        if 'entries' in result:
-                            for video in result['entries']:
-                                if not video: continue
-                                vid = video.get('id')
-                                title = video.get('title', 'No Title')
-                                
-                                if not vid: continue
-                                if vid in seen_ids: continue
-                                
-                                title_lower = title.lower().strip()
-                                is_banned = False
-                                for phrase in banned_phrases:
-                                    if phrase in title_lower:
-                                        is_banned = True
-                                        break
-                                if is_banned: continue
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            for pl in playlists:
+                print(f"Processing: {pl['group']}...")
+                url = f"https://www.youtube.com/playlist?list={pl['id']}"
+                try:
+                    result = ydl.extract_info(url, download=False)
+                    if 'entries' in result:
+                        for video in result['entries']:
+                            if not video: continue
+                            
+                            vid = video.get('id')
+                            title = video.get('title', 'No Title')
+                            
+                            if not vid or vid in seen_ids: continue
+                            
+                            title_lower = title.lower().strip()
+                            if any(phrase in title_lower for phrase in banned_phrases):
+                                continue
 
-                                seen_ids.add(vid)
-                                
-                                f.write(f'#EXTINF:-1 group-title="{pl["group"]}" tvg-logo="{pl["logo"]}",{title}\n')
-                                # ΕΔΩ ΕΙΝΑΙ Η ΜΑΓΕΙΑ:
-                                # Δίνουμε στο πρόσθετο το video_id για να το βρει σίγουρα
-                                f.write(f'plugin://plugin.video.trailers/?action=play&video_id={vid}\n')
-                                
-                    except Exception as e:
-                        print(f"Error processing list {pl['group']}: {e}")
+                            seen_ids.add(vid)
+                            
+                            # Εξαγωγή Fanart (η μεγαλύτερη διαθέσιμη μικρογραφία)
+                            thumbnails = video.get('thumbnails', [])
+                            fanart = thumbnails[-1]['url'] if thumbnails else ""
+                            
+                            # Εξαγωγή Plot (περιγραφή). Το yt-dlp ίσως φέρει κενό στο extract_flat, αλλά αν υπάρχει το παίρνουμε.
+                            plot = video.get('description') or title
 
-    - name: Commit and Push changes
-      run: |
-        git config --global user.name "GitHub Action"
-        git config --global user.email "action@github.com"
-        git add playlist.m3u
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update playlist" && (git push || (git pull --rebase origin main && git push)))
+                            output_items.append({
+                                "video_id": vid,
+                                "title": title,
+                                "group": pl["group"],
+                                "logo": pl["logo"],
+                                "fanart": fanart,
+                                "plot": plot
+                            })
+                            
+                except Exception as e:
+                    print(f"Error processing list {pl['group']}: {e}")
+
+        # Αποθήκευση σε αρχείο JSON
+        with open("trailers.json", "w", encoding="utf-8") as f:
+            json.dump(output_items, f, ensure_ascii=False, indent=4)
