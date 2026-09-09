@@ -1,0 +1,39 @@
+name: RedMirror
+
+on:
+  schedule:
+    # κάθε 6 ώρες
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: redmirror
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Sync addons
+        run: python scripts/redmirror.py
+
+      - name: Commit changes
+        run: |
+          if [ -z "$(git status --porcelain redmirror)" ]; then
+            echo "καμία αλλαγή, δεν γίνεται commit"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add redmirror
+          git commit -m "redmirror: update addons"
+          git push
