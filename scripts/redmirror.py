@@ -7,6 +7,8 @@ ManaLAB - redmirror
 από τον server τους.
 """
 
+import codecs
+import gzip
 import hashlib
 import io
 import os
@@ -29,6 +31,7 @@ WANTED = [
 SOURCES = [
     'https://repo.redwizard.xyz/redwizardrepo/main/',
     'https://repo.redwizard.xyz/redwizardrepo/21omega/',
+    'https://repo.redwizard.xyz/redwizardrepo/22piers/',
 ]
 
 OUT_DIR = 'redmirror'
@@ -42,7 +45,24 @@ UA = {'User-Agent': 'Mozilla/5.0'}
 def fetch(url):
     req = urllib.request.Request(url, headers=UA)
     with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
-        return r.read()
+        data = r.read()
+    # κάποιοι servers στέλνουν gzip ακόμα κι όταν λέει compressed="false"
+    if data[:2] == b'\x1f\x8b':
+        data = gzip.decompress(data)
+    return data
+
+
+def parse_xml(data, where):
+    """Παρσάρει XML αγνοώντας BOM/σκουπίδια μπροστά. Σε αποτυχία δείχνει τι ήρθε."""
+    if data.startswith(codecs.BOM_UTF8):
+        data = data[len(codecs.BOM_UTF8):]
+    data = data.lstrip()
+    try:
+        return ET.fromstring(data)
+    except ET.ParseError as e:
+        print('! δεν παρσάρεται το %s -> %s' % (where, e))
+        print('  τι ήρθε (πρώτα 200 bytes): %r' % data[:200])
+        return None
 
 
 def vkey(version):
@@ -59,10 +79,8 @@ def remote_versions():
         except Exception as e:
             print('! δεν διαβάστηκε %saddons.xml -> %s' % (base, e))
             continue
-        try:
-            root = ET.fromstring(data)
-        except ET.ParseError as e:
-            print('! χαλασμένο addons.xml στο %s -> %s' % (base, e))
+        root = parse_xml(data, base + 'addons.xml')
+        if root is None:
             continue
         for addon in root.findall('addon'):
             aid = addon.get('id')
@@ -101,10 +119,8 @@ def verify(blob, aid, ver):
     if name not in zf.namelist():
         print('  ! λείπει το %s μέσα από το zip' % name)
         return None
-    try:
-        root = ET.fromstring(zf.read(name))
-    except ET.ParseError:
-        print('  ! μη αναγνώσιμο addon.xml')
+    root = parse_xml(zf.read(name), name)
+    if root is None:
         return None
     if root.get('version') != ver:
         print('  ! ασυμφωνία έκδοσης: addons.xml λέει %s, addon.xml λέει %s'
