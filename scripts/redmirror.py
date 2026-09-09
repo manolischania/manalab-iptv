@@ -37,15 +37,37 @@ SOURCES = [
 OUT_DIR = 'redmirror'
 KEEP = 2          # πόσες εκδόσεις κρατάμε ανά addon
 TIMEOUT = 60
-UA = {'User-Agent': 'Mozilla/5.0'}
+UA = {
+    'User-Agent': ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+                   '(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'),
+    'Accept': 'text/xml,application/xml,text/html;q=0.9,*/*;q=0.8',
+    'Accept-Language': 'en-US,en;q=0.9',
+}
+
+
+class LoudRedirect(urllib.request.HTTPRedirectHandler):
+    """Τυπώνει κάθε ανακατεύθυνση - έτσι φαίνεται αν μας πετάνε αλλού."""
+
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        print('  ~ %s ανακατεύθυνση -> %s' % (code, newurl))
+        return urllib.request.HTTPRedirectHandler.redirect_request(
+            self, req, fp, code, msg, headers, newurl)
+
+
+OPENER = urllib.request.build_opener(LoudRedirect)
 
 
 # --- βοηθητικά -------------------------------------------------------------
 
 def fetch(url):
     req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+    with OPENER.open(req, timeout=TIMEOUT) as r:
+        final = r.geturl()
+        ctype = r.headers.get('Content-Type', '?')
+        if final != url:
+            print('  ~ κατέληξε στο %s' % final)
         data = r.read()
+    print('  . %s | %s | %d bytes' % (url.rsplit('/', 1)[-1], ctype, len(data)))
     # κάποιοι servers στέλνουν gzip ακόμα κι όταν λέει compressed="false"
     if data[:2] == b'\x1f\x8b':
         data = gzip.decompress(data)
